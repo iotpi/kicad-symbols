@@ -15,13 +15,11 @@
     (property "ki_description" " 6D MEMS inertial measurement unit (IMU)" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "QMI8658A_0_1"
+    (symbol "QMI8658A_1_1"
       (rectangle (start -11.43 10.16) (end 11.43 -11.43)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
-    )
-    (symbol "QMI8658A_1_1"
       (pin output line (at -13.97 5.08 0) (length 2.54)
         (name "SDO/SA0" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
