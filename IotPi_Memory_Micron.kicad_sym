@@ -18,7 +18,7 @@
     (symbol "MT52L256M32D1PF_0_1"
       (rectangle (start -27.94 19.05) (end 27.94 -92.71)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "MT52L256M32D1PF_1_1"

@@ -18,7 +18,7 @@
     (symbol "MTFC4GACAJCN_1_1"
       (rectangle (start -17.78 19.05) (end 17.78 -64.77)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
       (pin bidirectional line (at -24.13 3.81 0) (length 6.35)
         (name "DATA0" (effects (font (size 1.27 1.27))))
@@ -156,7 +156,7 @@
     (symbol "MTFC4GACAJCN_2_1"
       (rectangle (start -22.86 19.05) (end 26.67 -24.13)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
       (text "Non-connected pins" (at 0 3.81 0)
         (effects (font (size 1.27 1.27)))

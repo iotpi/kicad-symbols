@@ -18,7 +18,7 @@
     (symbol "Micron_DDR4_MT40A512M16TB_1_1"
       (rectangle (start -11.43 38.1) (end 11.43 -45.72)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
       (pin bidirectional line (at 17.78 8.89 180) (length 6.35)
         (name "DQ8" (effects (font (size 1.27 1.27))))
@@ -232,7 +232,7 @@
     (symbol "Micron_DDR4_MT40A512M16TB_2_1"
       (rectangle (start -11.43 28.575) (end 11.43 -35.56)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
       (pin power_in line (at -17.78 0 0) (length 6.35)
         (name "V_{DDQ}" (effects (font (size 1.27 1.27))))
@@ -434,7 +434,7 @@
     (symbol "W632GU6NB_1_1"
       (rectangle (start -11.43 13.97) (end 11.43 -71.12)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
       (pin bidirectional line (at 17.78 -30.48 180) (length 6.35)
         (name "DQU5" (effects (font (size 1.27 1.27))))
@@ -632,7 +632,7 @@
     (symbol "W632GU6NB_2_1"
       (rectangle (start -11.43 12.065) (end 11.43 -51.435)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
       (pin power_in line (at 17.78 9.525 180) (length 6.35)
         (name "VDDQ" (effects (font (size 1.27 1.27))))
@@ -863,7 +863,7 @@
     (symbol "W634GU6QB_1_1"
       (rectangle (start -11.43 13.97) (end 11.43 -69.85)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
       (pin bidirectional line (at 17.78 -30.48 180) (length 6.35)
         (name "DQU5" (effects (font (size 1.27 1.27))))
@@ -1065,7 +1065,7 @@
     (symbol "W634GU6QB_2_1"
       (rectangle (start -11.43 12.7) (end 11.43 -53.34)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
       (pin power_in line (at -17.78 -16.51 0) (length 6.35)
         (name "VDDQ" (effects (font (size 1.27 1.27))))

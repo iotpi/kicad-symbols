@@ -12,13 +12,11 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "BL8039_0_1"
+    (symbol "BL8039_1_1"
       (rectangle (start -2.54 2.54) (end 7.62 -10.16)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
-    )
-    (symbol "BL8039_1_1"
       (pin input line (at -8.89 -6.35 0) (length 6.35)
         (name "EN" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -54,13 +52,11 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "PT5108E23E_0_1"
+    (symbol "PT5108E23E_1_1"
       (rectangle (start -10.16 6.35) (end 10.16 -6.35)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
-    )
-    (symbol "PT5108E23E_1_1"
       (pin power_in line (at -12.7 3.81 0) (length 2.54)
         (name "IN" (effects (font (size 0.762 0.762))))
         (number "1" (effects (font (size 0.762 0.762))))
@@ -96,13 +92,11 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "SY7200AABC_0_1"
+    (symbol "SY7200AABC_1_1"
       (rectangle (start -10.16 6.35) (end 10.16 -6.35)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
-    )
-    (symbol "SY7200AABC_1_1"
       (pin power_out line (at 12.7 3.81 180) (length 2.54)
         (name "SW" (effects (font (size 0.762 0.762))))
         (number "1" (effects (font (size 0.762 0.762))))
