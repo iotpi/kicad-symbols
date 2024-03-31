@@ -2113,7 +2113,7 @@
 		)
 		(symbol "eSIM_DFN8L_1_1"
 			(pin power_in line
-				(at -7.62 -2.54 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -2131,7 +2131,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -7.62 0 0)
+				(at 0 -7.62 90)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -2249,6 +2249,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
