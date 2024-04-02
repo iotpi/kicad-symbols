@@ -144,7 +144,7 @@
 			)
 			(pin passive line
 				(at -19.05 10.16 0)
-				(length 2.54)
+				(length 2.54) hide
 				(name "BAT"
 					(effects
 						(font
@@ -152,7 +152,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -162,7 +162,7 @@
 			)
 			(pin passive line
 				(at -19.05 10.16 0)
-				(length 2.54) hide
+				(length 2.54)
 				(name "BAT"
 					(effects
 						(font
@@ -170,7 +170,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1112,7 +1112,7 @@
 			)
 			(pin passive line
 				(at -19.05 10.16 0)
-				(length 2.54)
+				(length 2.54) hide
 				(name "BAT"
 					(effects
 						(font
@@ -1120,7 +1120,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1130,7 +1130,7 @@
 			)
 			(pin passive line
 				(at -19.05 10.16 0)
-				(length 2.54) hide
+				(length 2.54)
 				(name "BAT"
 					(effects
 						(font
@@ -1138,7 +1138,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
