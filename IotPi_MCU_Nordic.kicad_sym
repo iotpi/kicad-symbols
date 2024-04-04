@@ -297,7 +297,7 @@
 						)
 					)
 				)
-				(alternate "~{RESET}" input line)
+				(alternate "~{RESET}" passive line)
 			)
 			(pin bidirectional line
 				(at 6.35 -36.83 90)
