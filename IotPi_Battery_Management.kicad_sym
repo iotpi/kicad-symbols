@@ -1308,7 +1308,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -19.05 2.54 0)
 				(length 2.54)
 				(name "BTST"
@@ -1383,7 +1383,7 @@
 			(pin power_in line
 				(at -19.05 -7.62 0)
 				(length 2.54) hide
-				(name "EPAD"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
