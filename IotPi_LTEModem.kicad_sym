@@ -1455,7 +1455,7 @@
 			(pin input line
 				(at -30.48 46.99 0)
 				(length 3.81)
-				(name "PWRKEY"
+				(name "~{PWRKEY}"
 					(effects
 						(font
 							(size 1.27 1.27)
