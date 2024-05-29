@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IotPi_GNSS_Module:Air510U"
 			(at 0 0 0)
 			(effects
 				(font
