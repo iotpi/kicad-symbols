@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Air510U_0_1"
+		(symbol "Air510U_1_1"
 			(rectangle
 				(start -8.89 15.24)
 				(end 8.89 -15.24)
@@ -58,11 +58,9 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "Air510U_1_1"
 			(pin power_in line
 				(at 0 -17.78 90)
 				(length 2.54)
