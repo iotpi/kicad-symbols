@@ -61,7 +61,7 @@
 		(symbol "SGM13001x_1_1"
 			(polyline
 				(pts
-					(xy -3.175 5.08) (xy -3.175 -5.08) (xy 6.985 0) (xy -3.175 5.08)
+					(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
 				)
 				(stroke
 					(width 0.2032)
@@ -72,7 +72,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.905 -5.08 90)
+				(at 1.27 -5.08 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -90,7 +90,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.905 5.08 270)
+				(at 1.27 5.08 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -108,7 +108,7 @@
 				)
 			)
 			(pin input line
-				(at 9.525 0 180)
+				(at 8.89 0 180)
 				(length 2.54)
 				(name "RFOUT"
 					(effects
@@ -126,7 +126,7 @@
 				)
 			)
 			(pin power_in line
-				(at -0.635 -6.35 90)
+				(at -1.27 -6.35 90)
 				(length 2.54)
 				(name "GNDRF"
 					(effects
@@ -144,7 +144,7 @@
 				)
 			)
 			(pin input line
-				(at -5.715 0 0)
+				(at -6.35 0 0)
 				(length 2.54)
 				(name "RFIN"
 					(effects
@@ -162,7 +162,7 @@
 				)
 			)
 			(pin power_in line
-				(at -0.635 6.35 270)
+				(at -1.27 6.35 270)
 				(length 2.54)
 				(name "EN"
 					(effects
