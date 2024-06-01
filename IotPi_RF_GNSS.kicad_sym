@@ -22,8 +22,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 1.27 0 0)
+		(property "Footprint" "IotPi_Package_DFN_QFN:UTDFN-6L-1.1x0..7mm_P0.4mm"
+			(at 2.54 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,8 +31,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.27 0 0)
+		(property "Datasheet" "https://www.sg-micro.com/rect/assets/ed4fee79-d232-4869-b8a8-714aafd1fc49/SGM13001A.pdf"
+			(at 5.08 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,8 +40,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 1.27 0 0)
+		(property "Description" "Low Noise Amplifier for GNSS"
+			(at 1.27 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -178,6 +178,61 @@
 						)
 					)
 				)
+			)
+		)
+	)
+	(symbol "SGM13002x"
+		(extends "SGM13001x")
+		(property "Reference" "U"
+			(at -5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SGM13001x"
+			(at 12.065 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 5.08 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Noise Amplifier for GNSS"
+			(at 1.27 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "GNSS, LNA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
