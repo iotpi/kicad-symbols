@@ -392,7 +392,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 13.97 30.48 0)
+			(at 13.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,7 +400,7 @@
 			)
 		)
 		(property "Value" "CC1167Q"
-			(at 0 -2.54 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -408,7 +408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -7.62 12.7 0)
+			(at -7.62 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,7 +417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -7.62 12.7 0)
+			(at -7.62 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -445,8 +445,8 @@
 		)
 		(symbol "CC1167Q_1_1"
 			(rectangle
-				(start -16.51 27.94)
-				(end 16.51 -27.94)
+				(start -16.51 24.13)
+				(end 16.51 -24.13)
 				(stroke
 					(width 0)
 					(type default)
@@ -455,8 +455,8 @@
 					(type background)
 				)
 			)
-			(pin power_in line
-				(at -19.05 6.35 0)
+			(pin power_out line
+				(at -19.05 3.81 0)
 				(length 2.54)
 				(name "LDO_RF"
 					(effects
@@ -474,7 +474,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -21.59 0)
+				(at -19.05 -19.05 0)
 				(length 2.54)
 				(name "UART0_RXD"
 					(effects
@@ -492,7 +492,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -8.89 180)
+				(at 19.05 -6.35 180)
 				(length 2.54)
 				(name "PIO6"
 					(effects
@@ -510,7 +510,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -11.43 180)
+				(at 19.05 -8.89 180)
 				(length 2.54)
 				(name "PIO7"
 					(effects
@@ -528,7 +528,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -13.97 180)
+				(at 19.05 -11.43 180)
 				(length 2.54)
 				(name "PIO8"
 					(effects
@@ -546,7 +546,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -16.51 180)
+				(at 19.05 -13.97 180)
 				(length 2.54)
 				(name "PIO9"
 					(effects
@@ -564,7 +564,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 21.59 0)
+				(at -19.05 13.97 0)
 				(length 2.54)
 				(name "VDD_IO"
 					(effects
@@ -582,7 +582,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 15.24 180)
+				(at 19.05 8.89 180)
 				(length 2.54)
 				(name "BOOT_MODE"
 					(effects
@@ -600,7 +600,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -19.05 180)
+				(at 19.05 -16.51 180)
 				(length 2.54)
 				(name "PIO13"
 					(effects
@@ -618,7 +618,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 12.7 180)
+				(at 19.05 6.35 180)
 				(length 2.54)
 				(name "LNA_EN"
 					(effects
@@ -636,7 +636,7 @@
 				)
 			)
 			(pin output line
-				(at 19.05 10.16 180)
+				(at 19.05 3.81 180)
 				(length 2.54)
 				(name "PPS"
 					(effects
@@ -654,7 +654,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -5.08 -30.48 90)
+				(at -5.08 -26.67 90)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -672,7 +672,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -21.59 180)
+				(at 19.05 -19.05 180)
 				(length 2.54)
 				(name "PIO14"
 					(effects
@@ -689,9 +689,9 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -19.05 13.97 0)
-				(length 2.54)
+			(pin power_out line
+				(at -19.05 6.35 0)
+				(length 2.54) hide
 				(name "LDO_C"
 					(effects
 						(font
@@ -708,7 +708,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 3.81 0)
+				(at -19.05 21.59 0)
 				(length 2.54)
 				(name "VMAIN"
 					(effects
@@ -726,7 +726,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -2.54 -30.48 90)
+				(at -2.54 -26.67 90)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -744,7 +744,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 7.62 180)
+				(at 19.05 1.27 180)
 				(length 2.54)
 				(name "~{RESET}"
 					(effects
@@ -762,7 +762,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -3.81 0)
+				(at -19.05 -1.27 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -780,7 +780,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 22.86 180)
+				(at 19.05 19.05 180)
 				(length 2.54)
 				(name "RTC_XIN"
 					(effects
@@ -798,7 +798,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 20.32 180)
+				(at 19.05 16.51 180)
 				(length 2.54)
 				(name "RTC_XOUT"
 					(effects
@@ -816,7 +816,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -30.48 90)
+				(at 0 -26.67 90)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -833,8 +833,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -19.05 19.05 0)
+			(pin power_out line
+				(at -19.05 11.43 0)
 				(length 2.54)
 				(name "LDO_RET"
 					(effects
@@ -852,7 +852,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 25.4 180)
+				(at 19.05 21.59 180)
 				(length 2.54)
 				(name "TCXO_IN"
 					(effects
@@ -870,7 +870,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 2.54 -30.48 90)
+				(at 2.54 -26.67 90)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -888,7 +888,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 24.13 0)
+				(at -19.05 16.51 0)
 				(length 2.54)
 				(name "V_BCKP"
 					(effects
@@ -905,8 +905,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -19.05 16.51 0)
+			(pin power_out line
+				(at -19.05 8.89 0)
 				(length 2.54)
 				(name "LDO_X"
 					(effects
@@ -924,7 +924,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 1.27 0)
+				(at -19.05 19.05 0)
 				(length 2.54)
 				(name "VMAIN_RF"
 					(effects
@@ -941,9 +941,9 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -19.05 8.89 0)
-				(length 2.54)
+			(pin power_out line
+				(at -19.05 3.81 0)
+				(length 2.54) hide
 				(name "LDO_RF"
 					(effects
 						(font
@@ -960,7 +960,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 5.08 180)
+				(at 19.05 -1.27 180)
 				(length 2.54)
 				(name "RF_IN"
 					(effects
@@ -978,7 +978,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 5.08 -30.48 90)
+				(at 5.08 -26.67 90)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -996,7 +996,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -3.81 0)
+				(at -19.05 -1.27 0)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -1014,7 +1014,7 @@
 				)
 			)
 			(pin output line
-				(at -19.05 -8.89 0)
+				(at -19.05 -6.35 0)
 				(length 2.54)
 				(name "UART1_TXD"
 					(effects
@@ -1032,7 +1032,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -11.43 0)
+				(at -19.05 -8.89 0)
 				(length 2.54)
 				(name "UART1_RXD"
 					(effects
@@ -1050,7 +1050,7 @@
 				)
 			)
 			(pin output line
-				(at -19.05 -13.97 0)
+				(at -19.05 -11.43 0)
 				(length 2.54)
 				(name "UART0_CTS"
 					(effects
@@ -1068,7 +1068,7 @@
 				)
 			)
 			(pin output line
-				(at -19.05 -16.51 0)
+				(at -19.05 -13.97 0)
 				(length 2.54)
 				(name "UART0_RTS"
 					(effects
@@ -1085,8 +1085,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -19.05 11.43 0)
+			(pin power_out line
+				(at -19.05 6.35 0)
 				(length 2.54)
 				(name "LDO_C"
 					(effects
@@ -1104,7 +1104,7 @@
 				)
 			)
 			(pin output line
-				(at -19.05 -19.05 0)
+				(at -19.05 -16.51 0)
 				(length 2.54)
 				(name "UART0_TXD"
 					(effects
