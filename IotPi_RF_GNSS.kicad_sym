@@ -2001,7 +2001,7 @@
 			(pin input line
 				(at 11.43 -2.54 180)
 				(length 2.54)
-				(name "~{PD}"
+				(name "EN"
 					(effects
 						(font
 							(size 1.27 1.27)
