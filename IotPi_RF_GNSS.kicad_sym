@@ -455,8 +455,8 @@
 					(type background)
 				)
 			)
-			(pin power_out line
-				(at -19.05 3.81 0)
+			(pin passive line
+				(at -19.05 1.27 0)
 				(length 2.54)
 				(name "LDO_RF"
 					(effects
@@ -582,7 +582,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 8.89 180)
+				(at 19.05 11.43 180)
 				(length 2.54)
 				(name "BOOT_MODE"
 					(effects
@@ -618,7 +618,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 6.35 180)
+				(at 19.05 8.89 180)
 				(length 2.54)
 				(name "LNA_EN"
 					(effects
@@ -636,7 +636,7 @@
 				)
 			)
 			(pin output line
-				(at 19.05 3.81 180)
+				(at 19.05 6.35 180)
 				(length 2.54)
 				(name "PPS"
 					(effects
@@ -689,9 +689,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -19.05 6.35 0)
-				(length 2.54) hide
+			(pin passive line
+				(at -19.05 3.81 0)
+				(length 2.54)
 				(name "LDO_C"
 					(effects
 						(font
@@ -744,7 +744,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 1.27 180)
+				(at 19.05 3.81 180)
 				(length 2.54)
 				(name "~{RESET}"
 					(effects
@@ -762,7 +762,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -1.27 0)
+				(at -19.05 -3.81 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -833,7 +833,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -19.05 11.43 0)
 				(length 2.54)
 				(name "LDO_RET"
@@ -905,7 +905,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -19.05 8.89 0)
 				(length 2.54)
 				(name "LDO_X"
@@ -941,9 +941,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -19.05 3.81 0)
-				(length 2.54) hide
+			(pin passive line
+				(at -19.05 -1.27 0)
+				(length 2.54)
 				(name "LDO_RF"
 					(effects
 						(font
@@ -960,7 +960,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -1.27 180)
+				(at 19.05 1.27 180)
 				(length 2.54)
 				(name "RF_IN"
 					(effects
@@ -995,8 +995,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -19.05 -1.27 0)
+			(pin passive line
+				(at -19.05 -3.81 0)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -1085,7 +1085,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -19.05 6.35 0)
 				(length 2.54)
 				(name "LDO_C"
