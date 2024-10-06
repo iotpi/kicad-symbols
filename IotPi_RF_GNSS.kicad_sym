@@ -905,7 +905,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -19.05 8.89 0)
 				(length 2.54)
 				(name "LDO_X"
