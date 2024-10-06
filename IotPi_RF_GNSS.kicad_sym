@@ -2101,6 +2101,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "CEIC_DFN-6L_1.2x1.5mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "X150_1_1"
 			(rectangle
 				(start -5.08 3.81)
