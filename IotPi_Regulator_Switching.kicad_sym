@@ -853,7 +853,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TDFN-8AL-1EP_2x2mm*"
+		(property "ki_fp_filters" "TDFN-8AL_1EP_2x2mm*"
 			(at 0 0 0)
 			(effects
 				(font
