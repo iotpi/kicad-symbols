@@ -51,6 +51,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "LGA8S145X65P2X*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "DPS368_1_0"
 			(pin power_in line
 				(at 27.94 -15.24 180)

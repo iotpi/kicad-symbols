@@ -1932,6 +1932,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "STARIC_LGA-6L_1.6x1.6mm_P0.5mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "STAR1022C_1_1"
 			(rectangle
 				(start -8.89 6.35)
@@ -2298,6 +2307,15 @@
 			)
 		)
 		(property "ki_keywords" "LNA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CEIC_DFN-6L_1.1x0.7mm_P0.4mm*"
 			(at 0 0 0)
 			(effects
 				(font
