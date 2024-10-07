@@ -443,6 +443,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "ICOE_QFN-36_1EP_4.4x4mm_P0.35mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "CC1167Q_1_1"
 			(rectangle
 				(start -16.51 24.13)
