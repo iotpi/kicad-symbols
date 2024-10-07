@@ -1170,6 +1170,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "KYA100"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "KYA100_1_1"
 			(rectangle
 				(start -8.89 10.16)
