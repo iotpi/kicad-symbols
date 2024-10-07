@@ -862,7 +862,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SGM61012_0_1"
+		(symbol "SGM61012_1_1"
 			(rectangle
 				(start -8.89 6.35)
 				(end 8.89 -6.35)
@@ -871,11 +871,9 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "SGM61012_1_1"
 			(pin input line
 				(at -11.43 1.27 0)
 				(length 2.54)
@@ -1096,7 +1094,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SGM66022_0_1"
+		(symbol "SGM66022_1_1"
 			(rectangle
 				(start -10.16 5.08)
 				(end 10.16 -7.62)
@@ -1105,11 +1103,9 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "SGM66022_1_1"
 			(pin power_in line
 				(at -12.7 -5.08 0)
 				(length 2.54)
