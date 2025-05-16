@@ -1313,7 +1313,7 @@
 				(alternate "TIM3_CH1" bidirectional line)
 				(alternate "UART5_TX" output line)
 				(alternate "USART2_TX" output line)
-				(alternate "~{JTRST}" input line)
+				(alternate "~{JTRST}" output line)
 			)
 			(pin bidirectional line
 				(at -5.08 27.94 270)
