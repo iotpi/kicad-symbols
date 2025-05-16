@@ -1,0 +1,2654 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "AT32F437VxT7"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT32F437VxT7:LQFP-100_L14.0-W14.0-P0.50-LS16.0-BL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "由官方提供"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Artery Technology"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AT32F437VxT7_1_0"
+			(rectangle
+				(start -40.64 39.37)
+				(end 41.91 -41.91)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -39.37 38.1)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin tri_state line
+				(at -43.18 29.21 0)
+				(length 2.54)
+				(name "PE2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EMAC_MII_TXD3" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S4_CK" output line)
+				(alternate "QSPI1_IO2" bidirectional line)
+				(alternate "SPI4_SCK" output line)
+				(alternate "TMR20_CH1" bidirectional line)
+				(alternate "TMR3_EXT" input line)
+				(alternate "XMC_A23" output line)
+				(alternate "XMC_SDNCAS" output line)
+			)
+			(pin power_in line
+				(at -43.18 6.35 0)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -29.21 41.91 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "100"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -43.18 3.81 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -43.18 1.27 0)
+				(length 2.54)
+				(name "PH0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "HEXT_IN" passive line)
+			)
+			(pin tri_state line
+				(at -43.18 -1.27 0)
+				(length 2.54)
+				(name "PH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "HEXT_OUT" passive line)
+			)
+			(pin input line
+				(at -43.18 -3.81 0)
+				(length 2.54)
+				(name "~{RST}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -43.18 -6.35 0)
+				(length 2.54)
+				(name "PC0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC123_IN10(" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SCL" output line)
+				(alternate "SDIO2_D0" bidirectional line)
+				(alternate "UART7_TX" output line)
+				(alternate "XMC_SDNWE" output line)
+			)
+			(pin tri_state line
+				(at -43.18 -8.89 0)
+				(length 2.54)
+				(name "PC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC123_IN11" input line)
+				(alternate "EMAC_MDC" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SDA" bidirectional line)
+				(alternate "I2S2_SD" bidirectional line)
+				(alternate "I2S3_SD" bidirectional line)
+				(alternate "SDIO2_D1" bidirectional line)
+				(alternate "SPI2_MOSI" output line)
+				(alternate "SPI3_MOSI" output line)
+				(alternate "UART7_RX" input line)
+			)
+			(pin tri_state line
+				(at -43.18 -11.43 0)
+				(length 2.54)
+				(name "PC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC123_IN12" input line)
+				(alternate "EMAC_MII_TXD2" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S2_SDEXT" output line)
+				(alternate "SDIO2_D2" bidirectional line)
+				(alternate "SPI2_MISO" input line)
+				(alternate "TMR20_CH2" bidirectional line)
+				(alternate "UART8_TX" output line)
+				(alternate "XMC_NWE" output line)
+				(alternate "XMC_SDCS0" output line)
+			)
+			(pin tri_state line
+				(at -43.18 -13.97 0)
+				(length 2.54)
+				(name "PC3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC123_IN13" input line)
+				(alternate "EMAC_MII_TX_C LK" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S2_SD" output line)
+				(alternate "QSPI2_IO1" bidirectional line)
+				(alternate "SDIO2_D3" bidirectional line)
+				(alternate "SPI2_MOSI" output line)
+				(alternate "UART8_RX" input line)
+				(alternate "XMC_A0" output line)
+				(alternate "XMC_SDCKE0" output line)
+			)
+			(pin no_connect line
+				(at -43.18 -16.51 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -43.18 26.67 0)
+				(length 2.54)
+				(name "PE3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D9" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "TMR20_CH2" bidirectional line)
+				(alternate "TMR3_CH1" bidirectional line)
+				(alternate "XMC_A19" output line)
+			)
+			(pin power_in line
+				(at -43.18 -19.05 0)
+				(length 2.54)
+				(name "VSSA/VREF-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -43.18 -21.59 0)
+				(length 2.54)
+				(name "VREF+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -43.18 -24.13 0)
+				(length 2.54)
+				(name "VDDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -43.18 -26.67 0)
+				(length 2.54)
+				(name "PA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC123_IN0" input line)
+				(alternate "EMAC_MII_CRS" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SCL" output line)
+				(alternate "TAMPER2_BPR" output line)
+				(alternate "TMR2_CH1" bidirectional line)
+				(alternate "TMR2_EXT" input line)
+				(alternate "TMR5_CH1" bidirectional line)
+				(alternate "TMR8_EXT" input line)
+				(alternate "UART4_TX" output line)
+				(alternate "USART2_CTS" output line)
+				(alternate "WKUP1" input line)
+			)
+			(pin tri_state line
+				(at -43.18 -29.21 0)
+				(length 2.54)
+				(name "PA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC123_IN1" input line)
+				(alternate "EMAC_MII_RX_CLK" output line)
+				(alternate "EMAC_RMII_REF_CLK" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SDA" bidirectional line)
+				(alternate "I2S4_SD" bidirectional line)
+				(alternate "QSPI1_IO3" bidirectional line)
+				(alternate "SPI4_MOSI" output line)
+				(alternate "TMR2_CH2" bidirectional line)
+				(alternate "TMR5_CH2" bidirectional line)
+				(alternate "UART4_RX" input line)
+				(alternate "USART2_RTS_DE" input line)
+			)
+			(pin tri_state line
+				(at -43.18 -31.75 0)
+				(length 2.54)
+				(name "PA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC123_IN2" input line)
+				(alternate "EMAC_MDIO" bidirectional line)
+				(alternate "EVENTOUT" output line)
+				(alternate "SDIO2_CK" output line)
+				(alternate "TMR2_CH3" bidirectional line)
+				(alternate "TMR5_CH3" bidirectional line)
+				(alternate "TMR9_CH1" bidirectional line)
+				(alternate "USART2_TX" output line)
+				(alternate "XMC_D4" bidirectional line)
+			)
+			(pin tri_state line
+				(at -29.21 -44.45 90)
+				(length 2.54)
+				(name "PA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC123_IN3" input line)
+				(alternate "EMAC_MII_COL" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S2_MCK" output line)
+				(alternate "QSPI2_IO3" bidirectional line)
+				(alternate "SDIO2_CMD" output line)
+				(alternate "TMR2_CH4" bidirectional line)
+				(alternate "TMR5_CH4" bidirectional line)
+				(alternate "TMR9_CH2" bidirectional line)
+				(alternate "USART2_RX" input line)
+				(alternate "XMC_D5" bidirectional line)
+			)
+			(pin power_in line
+				(at -26.67 -44.45 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -24.13 -44.45 90)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -21.59 -44.45 90)
+				(length 2.54)
+				(name "PA4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC12_IN4" input line)
+				(alternate "DAC1" output line)
+				(alternate "DAC1_OUT" output line)
+				(alternate "DVP_HSYNC" input line)
+				(alternate "I2S1_WS" output line)
+				(alternate "I2S3_WS" output line)
+				(alternate "OTG2_SOF" output line)
+				(alternate "SDIO2_D0" bidirectional line)
+				(alternate "SDIO2_D4" bidirectional line)
+				(alternate "SPI1_CS" output line)
+				(alternate "SPI3_CS" output line)
+				(alternate "USART2_CK" output line)
+				(alternate "USART6_TX" output line)
+				(alternate "XMC_D6" bidirectional line)
+			)
+			(pin tri_state line
+				(at -43.18 24.13 0)
+				(length 2.54)
+				(name "PE4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CLK_OUT1" output line)
+				(alternate "DVP_D4" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S4_WS" output line)
+				(alternate "SPI4_CS" output line)
+				(alternate "TMR20_CH1C" output line)
+				(alternate "TMR3_CH2" bidirectional line)
+				(alternate "XMC_A20" output line)
+			)
+			(pin tri_state line
+				(at -19.05 -44.45 90)
+				(length 2.54)
+				(name "PA5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC12_IN5" input line)
+				(alternate "DAC2_OUT" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S1_CK" output line)
+				(alternate "QSPI2_IO2" bidirectional line)
+				(alternate "SDIO2_D1" bidirectional line)
+				(alternate "SDIO2_D5" bidirectional line)
+				(alternate "SPI1_SCK" output line)
+				(alternate "TMR2_CH1" bidirectional line)
+				(alternate "TMR2_EXT" input line)
+				(alternate "TMR8_CH1C" output line)
+				(alternate "USART6_RX" input line)
+				(alternate "XMC_D7" bidirectional line)
+			)
+			(pin tri_state line
+				(at -16.51 -44.45 90)
+				(length 2.54)
+				(name "PA6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC12_IN6" input line)
+				(alternate "DVP_PIXCLK" output line)
+				(alternate "I2S2_MCK" output line)
+				(alternate "QSPI1_IO0" bidirectional line)
+				(alternate "SDIO1_C MD" output line)
+				(alternate "SDIO2_D2" bidirectional line)
+				(alternate "SDIO2_D6" bidirectional line)
+				(alternate "SPI1_MISO" input line)
+				(alternate "TMR13_CH1" bidirectional line)
+				(alternate "TMR1_BRK" input line)
+				(alternate "TMR3_CH1" bidirectional line)
+				(alternate "TMR8_BRK" input line)
+				(alternate "USART3_CTS" output line)
+			)
+			(pin tri_state line
+				(at -13.97 -44.45 90)
+				(length 2.54)
+				(name "PA7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC12_IN7" input line)
+				(alternate "EMAC_MII_RX_DV" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S1_SD" bidirectional line)
+				(alternate "QSPI1_IO1" bidirectional line)
+				(alternate "SDIO2_D3" bidirectional line)
+				(alternate "SDIO2_D7" bidirectional line)
+				(alternate "SPI1_MOSI" output line)
+				(alternate "TMR14_CH1" bidirectional line)
+				(alternate "TMR1_CH1C" output line)
+				(alternate "TMR3_CH2" bidirectional line)
+				(alternate "TMR8_CH1C" output line)
+				(alternate "XMC_SDNWE" output line)
+			)
+			(pin tri_state line
+				(at -11.43 -44.45 90)
+				(length 2.54)
+				(name "PC4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC12_IN14" input line)
+				(alternate "EMAC_MII_RXD0" input line)
+				(alternate "EMAC_RMII_RXD0" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S1_MCK" output line)
+				(alternate "QSPI1_IO2" bidirectional line)
+				(alternate "SDIO2_CK" output line)
+				(alternate "TMR9_CH 1" bidirectional line)
+				(alternate "USART3_TX" output line)
+				(alternate "XMC_NE4" output line)
+				(alternate "XMC_SDCS0" output line)
+			)
+			(pin tri_state line
+				(at -8.89 -44.45 90)
+				(length 2.54)
+				(name "PC5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC12_IN15" input line)
+				(alternate "EMAC_MII_RXD1" input line)
+				(alternate "EMAC_RMII_RXD1" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SMBA" bidirectional line)
+				(alternate "QSPI1_IO3" input line)
+				(alternate "SDIO2_CMD" output line)
+				(alternate "TMR9_CH2" bidirectional line)
+				(alternate "USART3_RX" input line)
+				(alternate "XMC_NOE" output line)
+				(alternate "XMC_SDCKE0" output line)
+			)
+			(pin tri_state line
+				(at -6.35 -44.45 90)
+				(length 2.54)
+				(name "PB0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC12_IN8" input line)
+				(alternate "EMAC_MII_RXD2" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S1_MCK" output line)
+				(alternate "I2S3_SD" bidirectional line)
+				(alternate "QSPI1_IO0" bidirectional line)
+				(alternate "QSPI2_IO0" bidirectional line)
+				(alternate "SDIO1_D1" bidirectional line)
+				(alternate "SPI3_MOSI" output line)
+				(alternate "TMR1_CH2C" output line)
+				(alternate "TMR3_CH3" bidirectional line)
+				(alternate "TMR8_CH2C" output line)
+				(alternate "USART2_RX" input line)
+				(alternate "USART3_CK" output line)
+			)
+			(pin tri_state line
+				(at -3.81 -44.45 90)
+				(length 2.54)
+				(name "PB1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC12_IN9" input line)
+				(alternate "EMAC_MII_RXD3" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S2_CK" output line)
+				(alternate "QSPI1_SCK" output line)
+				(alternate "QSPI2_SCK" output line)
+				(alternate "SDIO1_D2" bidirectional line)
+				(alternate "SPI2_SCK" output line)
+				(alternate "TMR1_CH3C" output line)
+				(alternate "TMR3_CH4" bidirectional line)
+				(alternate "TMR8_CH3C" output line)
+				(alternate "USART3_RTS_DE" input line)
+			)
+			(pin tri_state line
+				(at -1.27 -44.45 90)
+				(length 2.54)
+				(name "PB2/BOOT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SMBA" bidirectional line)
+				(alternate "I2S3_SD" bidirectional line)
+				(alternate "QSPI1_SCK" output line)
+				(alternate "SDIO1_CK" output line)
+				(alternate "SPI3_MOSI" output line)
+				(alternate "TMR20_CH1" bidirectional line)
+				(alternate "TMR2_CH4" bidirectional line)
+			)
+			(pin tri_state line
+				(at 1.27 -44.45 90)
+				(length 2.54)
+				(name "PE7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "QSPI2_IO0" bidirectional line)
+				(alternate "TMR1_EXT" input line)
+				(alternate "UART7_RX" input line)
+				(alternate "XMC_D4" bidirectional line)
+			)
+			(pin tri_state line
+				(at 3.81 -44.45 90)
+				(length 2.54)
+				(name "PE8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "QSPI2_IO1" bidirectional line)
+				(alternate "TMR1_CH1C" output line)
+				(alternate "UART4_TX" output line)
+				(alternate "UART7_TX" output line)
+				(alternate "XMC_D5" bidirectional line)
+			)
+			(pin tri_state line
+				(at -43.18 21.59 0)
+				(length 2.54)
+				(name "PE5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D6" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "SPI4_MISO" input line)
+				(alternate "TMR20_CH2C" output line)
+				(alternate "TMR3_CH3" bidirectional line)
+				(alternate "TMR9_CH1" bidirectional line)
+				(alternate "XMC_A21" output line)
+			)
+			(pin tri_state line
+				(at 6.35 -44.45 90)
+				(length 2.54)
+				(name "PE9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "QSPI2_IO2" bidirectional line)
+				(alternate "TMR1_CH1" bidirectional line)
+				(alternate "UART4_RX" input line)
+				(alternate "XMC_D6" bidirectional line)
+			)
+			(pin tri_state line
+				(at 8.89 -44.45 90)
+				(length 2.54)
+				(name "PE10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "QSPI2_IO3" bidirectional line)
+				(alternate "TMR1_CH2C" output line)
+				(alternate "UART5_TX" output line)
+				(alternate "XMC_D7" bidirectional line)
+			)
+			(pin tri_state line
+				(at 11.43 -44.45 90)
+				(length 2.54)
+				(name "PE11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S4_WS" output line)
+				(alternate "SPI4_CS" output line)
+				(alternate "TMR1_CH2" bidirectional line)
+				(alternate "UART5_RX" input line)
+				(alternate "XMC_D8" bidirectional line)
+			)
+			(pin tri_state line
+				(at 13.97 -44.45 90)
+				(length 2.54)
+				(name "PE12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S1_WS" output line)
+				(alternate "I2S4_CK" output line)
+				(alternate "SPI1_CS" output line)
+				(alternate "SPI4_SCK" output line)
+				(alternate "TMR1_CH3C" output line)
+				(alternate "XMC_D9" bidirectional line)
+			)
+			(pin tri_state line
+				(at 16.51 -44.45 90)
+				(length 2.54)
+				(name "PE13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S1_CK" output line)
+				(alternate "SPI1_SCK" output line)
+				(alternate "SPI4_MISO" input line)
+				(alternate "TMR1_CH3" bidirectional line)
+				(alternate "XMC_D10" bidirectional line)
+			)
+			(pin tri_state line
+				(at 19.05 -44.45 90)
+				(length 2.54)
+				(name "PE14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S4_SD" bidirectional line)
+				(alternate "SPI1_MISO" input line)
+				(alternate "SPI4_MOSI" output line)
+				(alternate "TMR1_CH4" bidirectional line)
+				(alternate "XMC_D11" bidirectional line)
+			)
+			(pin tri_state line
+				(at 21.59 -44.45 90)
+				(length 2.54)
+				(name "PE15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S1_SD" bidirectional line)
+				(alternate "SPI1_MOSI" output line)
+				(alternate "TMR1_BRK" input line)
+				(alternate "XMC_D12" bidirectional line)
+			)
+			(pin tri_state line
+				(at 24.13 -44.45 90)
+				(length 2.54)
+				(name "PB10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EMAC_MII_RX_ER" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SCL" output line)
+				(alternate "I2S2_CK" output line)
+				(alternate "I2S3_MCK" output line)
+				(alternate "QSPI1_CS" output line)
+				(alternate "QSPI1_IO1" bidirectional line)
+				(alternate "SDIO1_D7" bidirectional line)
+				(alternate "SPI2_SCK" output line)
+				(alternate "TMR2_CH3" bidirectional line)
+				(alternate "USART3_TX" output line)
+				(alternate "XMC_NOE" output line)
+			)
+			(pin tri_state line
+				(at 26.67 -44.45 90)
+				(length 2.54)
+				(name "PB11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EMAC_MII_TX_EN" output line)
+				(alternate "EMAC_RMII_TX_EN" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SDA" bidirectional line)
+				(alternate "QSPI1_IO0" bidirectional line)
+				(alternate "TMR2_CH4" bidirectional line)
+				(alternate "TMR5_CH4" bidirectional line)
+				(alternate "USART3_RX" input line)
+			)
+			(pin tri_state line
+				(at 29.21 -44.45 90)
+				(length 2.54)
+				(name "PH3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SDA" bidirectional line)
+				(alternate "QSPI1_IO1" bidirectional line)
+				(alternate "TMR5_CH2" bidirectional line)
+				(alternate "UART4_TX" output line)
+			)
+			(pin tri_state line
+				(at -43.18 19.05 0)
+				(length 2.54)
+				(name "PE6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D7" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S4_SD" bidirectional line)
+				(alternate "SPI4_MOSI" output line)
+				(alternate "TMR20_CH3C" output line)
+				(alternate "TMR3_CH4" bidirectional line)
+				(alternate "TMR9_CH2" bidirectional line)
+				(alternate "XMC_A22" output line)
+				(alternate "XMC_SD_nRAS" output line)
+			)
+			(pin power_in line
+				(at 31.75 -44.45 90)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at 44.45 -31.75 180)
+				(length 2.54)
+				(name "PB12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAN2_RX" input line)
+				(alternate "EMAC_MII_TXD0" output line)
+				(alternate "EMAC_RMII_TXD0" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SMBA" bidirectional line)
+				(alternate "I2S2_WS" output line)
+				(alternate "I2S3_CK" output line)
+				(alternate "I2S4_WS" output line)
+				(alternate "OTG2_ID" input line)
+				(alternate "SPI2_CS" output line)
+				(alternate "SPI3_SCK" output line)
+				(alternate "SPI4_CS" output line)
+				(alternate "TMR1_BRK" input line)
+				(alternate "TMR5_CH1" bidirectional line)
+				(alternate "USART3_CK" output line)
+				(alternate "XMC_D13" bidirectional line)
+			)
+			(pin tri_state line
+				(at 44.45 -29.21 180)
+				(length 2.54)
+				(name "PB13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAN2_TX" output line)
+				(alternate "EMAC_MII_TXD1" output line)
+				(alternate "EMAC_RMII_TXD1" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SCL" output line)
+				(alternate "I2C3_SMBA" bidirectional line)
+				(alternate "I2S2_CK" output line)
+				(alternate "I2S4_CK" output line)
+				(alternate "OTG2_VBUS" input line)
+				(alternate "SPI2_SCK" output line)
+				(alternate "SPI4_SCK" output line)
+				(alternate "TMR1_CH1C" output line)
+				(alternate "USART3_CTS" output line)
+			)
+			(pin tri_state line
+				(at 44.45 -26.67 180)
+				(length 2.54)
+				(name "PB14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SDA" bidirectional line)
+				(alternate "I2S2_SD_EXT" input line)
+				(alternate "OTG2_D-" bidirectional line)
+				(alternate "SDIO1_D6" bidirectional line)
+				(alternate "SPI2_MISO" input line)
+				(alternate "TMR12_CH1" bidirectional line)
+				(alternate "TMR1_CH2C" output line)
+				(alternate "TMR8_CH2C" output line)
+				(alternate "USART3_RTS_DE" input line)
+				(alternate "XMC_D0" bidirectional line)
+			)
+			(pin tri_state line
+				(at 44.45 -24.13 180)
+				(length 2.54)
+				(name "PB15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ERTC_REFIN" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SCL" output line)
+				(alternate "I2S2_SD" bidirectional line)
+				(alternate "OTG2_D+" bidirectional line)
+				(alternate "SDIO1_CK" output line)
+				(alternate "SPI2_MOSI" output line)
+				(alternate "TMR12_CH2" bidirectional line)
+				(alternate "TMR1_CH3C" output line)
+				(alternate "TMR8_CH3C" output line)
+			)
+			(pin tri_state line
+				(at 44.45 -21.59 180)
+				(length 2.54)
+				(name "PD8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EMAC_MII_RX_DV" input line)
+				(alternate "EMAC_RMII_CRS_DV" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "USART3_TX" output line)
+				(alternate "XMC_D13" bidirectional line)
+			)
+			(pin tri_state line
+				(at 44.45 -19.05 180)
+				(length 2.54)
+				(name "PD9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EMAC_MII_RXD0" input line)
+				(alternate "EMAC_RMII_RXD0" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "USART3_RX" input line)
+				(alternate "XMC_D14" bidirectional line)
+			)
+			(pin tri_state line
+				(at 44.45 -16.51 180)
+				(length 2.54)
+				(name "PD10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EMAC_MII_RXD1" input line)
+				(alternate "EMAC_RMII_RXD1" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "USART3_CK" output line)
+				(alternate "XMC_D15" bidirectional line)
+			)
+			(pin tri_state line
+				(at 44.45 -13.97 180)
+				(length 2.54)
+				(name "PD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EMAC_MII_RXD2" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SMBA" bidirectional line)
+				(alternate "QSPI1_IO0" bidirectional line)
+				(alternate "USART3_CTS" output line)
+				(alternate "XMC CLE" output line)
+				(alternate "XMC_A14" output line)
+				(alternate "XMC_A16" output line)
+				(alternate "XMC_SDBA0" output line)
+			)
+			(pin tri_state line
+				(at 44.45 -11.43 180)
+				(length 2.54)
+				(name "PD12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EMAC_MII_RXD3" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SCL" output line)
+				(alternate "QSPI1_IO1" bidirectional line)
+				(alternate "TMR4_CH1" bidirectional line)
+				(alternate "USART3_RTS_DE" input line)
+				(alternate "XMC ALE" output line)
+				(alternate "XMC_A15" output line)
+				(alternate "XMC_A17" output line)
+				(alternate "XMC_SDBA1" output line)
+			)
+			(pin power_in line
+				(at -43.18 16.51 0)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at 44.45 -8.89 180)
+				(length 2.54)
+				(name "PD13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SDA" bidirectional line)
+				(alternate "QSPI1_IO3" bidirectional line)
+				(alternate "TMR4_CH2" bidirectional line)
+				(alternate "UART8_TX" output line)
+				(alternate "XMC_A18" output line)
+				(alternate "XMC_SD_CLK" output line)
+			)
+			(pin tri_state line
+				(at 44.45 -6.35 180)
+				(length 2.54)
+				(name "PD14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SCL" output line)
+				(alternate "TMR4_CH3" bidirectional line)
+				(alternate "UART8_RX" input line)
+				(alternate "XMC_D0" bidirectional line)
+			)
+			(pin tri_state line
+				(at 44.45 -3.81 180)
+				(length 2.54)
+				(name "PD15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SDA" bidirectional line)
+				(alternate "TMR4_CH4" bidirectional line)
+				(alternate "XMC_D1" bidirectional line)
+			)
+			(pin tri_state line
+				(at 44.45 -1.27 180)
+				(length 2.54)
+				(name "PC6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D0" input line)
+				(alternate "I2C1_SCL" output line)
+				(alternate "I2S2_MCK" output line)
+				(alternate "SDIO1_D6" bidirectional line)
+				(alternate "TMR3_CH1" bidirectional line)
+				(alternate "TMR8_CH1" bidirectional line)
+				(alternate "USART6_TX" output line)
+				(alternate "XMC_A0" output line)
+				(alternate "XMC_D1" bidirectional line)
+			)
+			(pin tri_state line
+				(at 44.45 1.27 180)
+				(length 2.54)
+				(name "PC7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D1" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SDA" bidirectional line)
+				(alternate "I2S2_CK" output line)
+				(alternate "I2S3_MCK" output line)
+				(alternate "SDIO1_D7" output line)
+				(alternate "SPI2_SCK" output line)
+				(alternate "TMR3_CH2" bidirectional line)
+				(alternate "TMR8_CH2" bidirectional line)
+				(alternate "USART6_RX" input line)
+				(alternate "XMC_A1" output line)
+			)
+			(pin tri_state line
+				(at 44.45 3.81 180)
+				(length 2.54)
+				(name "PC8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D2" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S4_MCK" output line)
+				(alternate "QSPI1_IO2" bidirectional line)
+				(alternate "SDIO1_D0" bidirectional line)
+				(alternate "TMR20_CH3" bidirectional line)
+				(alternate "TMR3_CH3" bidirectional line)
+				(alternate "TMR8_CH3" bidirectional line)
+				(alternate "UART8_TX" output line)
+				(alternate "USART6_CK" output line)
+				(alternate "XMC_A2" output line)
+			)
+			(pin tri_state line
+				(at 44.45 6.35 180)
+				(length 2.54)
+				(name "PC9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "66"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CLKOUT2" output line)
+				(alternate "DVP_D3" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SDA" bidirectional line)
+				(alternate "OTG2_OE" output line)
+				(alternate "QSPI1_IO0" bidirectional line)
+				(alternate "SDIO1_D1" bidirectional line)
+				(alternate "TMR3_CH4" bidirectional line)
+				(alternate "TMR8_CH4" bidirectional line)
+				(alternate "UART8_RX" input line)
+				(alternate "XMC_A3" output line)
+			)
+			(pin tri_state line
+				(at 44.45 8.89 180)
+				(length 2.54)
+				(name "PA8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "67"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CLKOUT1" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SCL" output line)
+				(alternate "OTG1_SOF" output line)
+				(alternate "SDIO1_D 1" bidirectional line)
+				(alternate "TMR1_CH1" bidirectional line)
+				(alternate "USART1_CK" output line)
+				(alternate "USART2_TX" output line)
+				(alternate "XMC_A4" output line)
+			)
+			(pin tri_state line
+				(at 44.45 11.43 180)
+				(length 2.54)
+				(name "PA9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "68"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D0" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SCL" output line)
+				(alternate "I2C3_SMBA" bidirectional line)
+				(alternate "I2S2_CK" output line)
+				(alternate "OTG1_VBU S" input line)
+				(alternate "SDIO1_D 2" bidirectional line)
+				(alternate "SPI2_SCK" output line)
+				(alternate "TMR1_CH2" bidirectional line)
+				(alternate "USART1_TX" output line)
+			)
+			(pin tri_state line
+				(at 44.45 13.97 180)
+				(length 2.54)
+				(name "PA10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "69"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D1" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SDA" bidirectional line)
+				(alternate "I2S2_SD" output line)
+				(alternate "I2S4_MCK" output line)
+				(alternate "OTG1_ID" input line)
+				(alternate "SPI2_MOSI" output line)
+				(alternate "TMR1_CH3" bidirectional line)
+				(alternate "USART1_RX" input line)
+			)
+			(pin tri_state line
+				(at -43.18 13.97 0)
+				(length 2.54)
+				(name "PC13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ERTC_AF1" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "WKUP2" input line)
+			)
+			(pin tri_state line
+				(at 44.45 16.51 180)
+				(length 2.54)
+				(name "PA11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "70"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAN1_RX" input line)
+				(alternate "DVP_D2" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SCL" output line)
+				(alternate "I2S2_WS" output line)
+				(alternate "OTG1_D-" bidirectional line)
+				(alternate "SPI2_CS" output line)
+				(alternate "SPI4_MISO" input line)
+				(alternate "TMR1_CH4" bidirectional line)
+				(alternate "USART1_CTS" output line)
+				(alternate "USART6_TX" output line)
+			)
+			(pin tri_state line
+				(at 44.45 19.05 180)
+				(length 2.54)
+				(name "PA12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "71"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAN1_TX" output line)
+				(alternate "DVP_D3" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SDA" bidirectional line)
+				(alternate "OTG1_D+" bidirectional line)
+				(alternate "SPI2_MISO" input line)
+				(alternate "TMR1_EXT" input line)
+				(alternate "USART1_RTS_DE" input line)
+				(alternate "USART6_RX" input line)
+			)
+			(pin tri_state line
+				(at 44.45 21.59 180)
+				(length 2.54)
+				(name "PA13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "72"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "IR_OUT" output line)
+				(alternate "JTMS" bidirectional line)
+				(alternate "OTG1_OE" output line)
+				(alternate "SPI3_MISO" input line)
+				(alternate "SWDIO" bidirectional line)
+			)
+			(pin tri_state line
+				(at 44.45 24.13 180)
+				(length 2.54)
+				(name "PH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "73"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SCL" output line)
+				(alternate "QSPI1_IO0" bidirectional line)
+				(alternate "TMR5_CH1" bidirectional line)
+				(alternate "UART4_RX" input line)
+			)
+			(pin power_in line
+				(at 44.45 26.67 180)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "74"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 44.45 29.21 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "75"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at 31.75 41.91 270)
+				(length 2.54)
+				(name "PA14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "76"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S3_SD" bidirectional line)
+				(alternate "JTCK" output line)
+				(alternate "SPI3_MOSI" output line)
+				(alternate "SWCLK" output line)
+				(alternate "USART2_TX" output line)
+			)
+			(pin tri_state line
+				(at 29.21 41.91 270)
+				(length 2.54)
+				(name "PA15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "77"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S1_WS" output line)
+				(alternate "I2S3_WS" output line)
+				(alternate "JTDI" input line)
+				(alternate "QSPI1_IO2" bidirectional line)
+				(alternate "QSPI2_IO1" bidirectional line)
+				(alternate "SPI1_CS" output line)
+				(alternate "SPI3_CS" output line)
+				(alternate "TMR2_CH1" bidirectional line)
+				(alternate "TMR2_EXT" input line)
+				(alternate "USART1_TX" output line)
+				(alternate "USART2_RX" input line)
+				(alternate "XMC_NE2" output line)
+				(alternate "XMC_nCE3" output line)
+			)
+			(pin tri_state line
+				(at 26.67 41.91 270)
+				(length 2.54)
+				(name "PC10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "78"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D8" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S3_CK" output line)
+				(alternate "QSPI1_IO1" bidirectional line)
+				(alternate "SDIO1_D2" bidirectional line)
+				(alternate "SPI3_SCK" output line)
+				(alternate "TMR5_CH2" bidirectional line)
+				(alternate "UART4_TX" output line)
+				(alternate "USART3_TX" output line)
+			)
+			(pin tri_state line
+				(at 24.13 41.91 270)
+				(length 2.54)
+				(name "PC11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "79"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D4" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S3_SD_EXT" output line)
+				(alternate "QSPI1_CS" output line)
+				(alternate "SDIO1_D3" bidirectional line)
+				(alternate "SPI3_MISO" input line)
+				(alternate "TMR5_CH3" bidirectional line)
+				(alternate "UART4_RX" input line)
+				(alternate "USART3_RX" input line)
+				(alternate "XMC_D2" bidirectional line)
+			)
+			(pin tri_state line
+				(at -43.18 11.43 0)
+				(length 2.54)
+				(name "PC14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "LEXT_IN" passive line)
+			)
+			(pin tri_state line
+				(at 21.59 41.91 270)
+				(length 2.54)
+				(name "PC12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "80"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D9" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SDA" bidirectional line)
+				(alternate "I2S3_SD" bidirectional line)
+				(alternate "SDIO1_CK" output line)
+				(alternate "SPI3_MOSI" output line)
+				(alternate "TMR11_CH1" bidirectional line)
+				(alternate "UART5_TX" output line)
+				(alternate "USART3_CK" output line)
+				(alternate "XMC_D3" bidirectional line)
+			)
+			(pin tri_state line
+				(at 19.05 41.91 270)
+				(length 2.54)
+				(name "PD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "81"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAN1_RX" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S2_WS" output line)
+				(alternate "I2S3_SD" bidirectional line)
+				(alternate "SPI2_CS" output line)
+				(alternate "SPI3_MOSI" output line)
+				(alternate "SPI4_MISO" input line)
+				(alternate "XMC_A5" output line)
+				(alternate "XMC_D2" bidirectional line)
+			)
+			(pin tri_state line
+				(at 16.51 41.91 270)
+				(length 2.54)
+				(name "PD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "82"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAN1_TX" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S2_CK" output line)
+				(alternate "I2S2_WS" output line)
+				(alternate "SPI2_CS" output line)
+				(alternate "SPI2_SCK" output line)
+				(alternate "XMC_A6" output line)
+				(alternate "XMC_D3" bidirectional line)
+			)
+			(pin tri_state line
+				(at 13.97 41.91 270)
+				(length 2.54)
+				(name "PD2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "83"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D11" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "SDIO1_CMD" output line)
+				(alternate "TMR3_EXT" input line)
+				(alternate "UART5_RX" input line)
+				(alternate "USART3_RTS_DE" input line)
+				(alternate "XMC_A7" output line)
+				(alternate "XMC_NWE" output line)
+			)
+			(pin tri_state line
+				(at 11.43 41.91 270)
+				(length 2.54)
+				(name "PD3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "84"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D5" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S2_CK" output line)
+				(alternate "QSPI1_SCK" output line)
+				(alternate "SPI2_MISO" input line)
+				(alternate "SPI2_SCK" output line)
+				(alternate "USART2_CTS" output line)
+				(alternate "XMC_A8" output line)
+				(alternate "XMC_CLK" output line)
+			)
+			(pin tri_state line
+				(at 8.89 41.91 270)
+				(length 2.54)
+				(name "PD4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "85"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S2_SD" bidirectional line)
+				(alternate "SPI2_MOSI" output line)
+				(alternate "USART2_RTS_DE" input line)
+				(alternate "XMC_A9" output line)
+				(alternate "XMC_NOE" output line)
+			)
+			(pin tri_state line
+				(at 6.35 41.91 270)
+				(length 2.54)
+				(name "PD5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "86"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "USART2_TX" output line)
+				(alternate "XMC_A10" output line)
+				(alternate "XMC_NWE" output line)
+			)
+			(pin tri_state line
+				(at 3.81 41.91 270)
+				(length 2.54)
+				(name "PD6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "87"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D10" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2S3_SD" bidirectional line)
+				(alternate "SPI3_MOSI" output line)
+				(alternate "USART2_RX" input line)
+				(alternate "XMC_A11" output line)
+				(alternate "XMC_NWAIT" input line)
+			)
+			(pin tri_state line
+				(at 1.27 41.91 270)
+				(length 2.54)
+				(name "PD7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "88"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "USART2_CK" output line)
+				(alternate "XMC_A12" output line)
+				(alternate "XMC_NCE2" output line)
+				(alternate "XMC_NE1" output line)
+			)
+			(pin tri_state line
+				(at -1.27 41.91 270)
+				(length 2.54)
+				(name "PB3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "89"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D4" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SDA" bidirectional line)
+				(alternate "I2S1_CK" output line)
+				(alternate "I2S3_CK" output line)
+				(alternate "JTDO" output line)
+				(alternate "QSPI1_IO3" bidirectional line)
+				(alternate "SPI1_SCK" output line)
+				(alternate "SPI3_SCK" output line)
+				(alternate "SWO" output line)
+				(alternate "TMR2_CH2" bidirectional line)
+				(alternate "UART7_RX" input line)
+				(alternate "USART1_RX" input line)
+			)
+			(pin tri_state line
+				(at -43.18 8.89 0)
+				(length 2.54)
+				(name "PC15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "LEXT_OUT" output line)
+			)
+			(pin tri_state line
+				(at -3.81 41.91 270)
+				(length 2.54)
+				(name "PB4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "90"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D5" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SDA" bidirectional line)
+				(alternate "I2S3_SD_EXT" input line)
+				(alternate "JNTRST" output line)
+				(alternate "SDIO1_D0" bidirectional line)
+				(alternate "SPI1_MISO" input line)
+				(alternate "SPI3_MISO" input line)
+				(alternate "TMR3_CH1" bidirectional line)
+				(alternate "UART7_TX" output line)
+			)
+			(pin tri_state line
+				(at -6.35 41.91 270)
+				(length 2.54)
+				(name "PB5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "91"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAN2_RX" input line)
+				(alternate "DVP_D10" input line)
+				(alternate "EMAC_PPS_OUT" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SMBA" bidirectional line)
+				(alternate "I2S1_SD" bidirectional line)
+				(alternate "I2S3_SD" bidirectional line)
+				(alternate "SDIO1_D3" bidirectional line)
+				(alternate "SPI1_MOSI" output line)
+				(alternate "SPI3_MOSI" output line)
+				(alternate "TMR3_CH2" bidirectional line)
+				(alternate "UART5_RX" input line)
+				(alternate "USART1_CK" output line)
+				(alternate "XMC_SDCKE1" output line)
+			)
+			(pin tri_state line
+				(at -8.89 41.91 270)
+				(length 2.54)
+				(name "PB6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "92"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAN2_TX" output line)
+				(alternate "DVP_D5" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SCL" output line)
+				(alternate "I2S1_MCK" output line)
+				(alternate "I2S4_WS" output line)
+				(alternate "QSPI1_CS" output line)
+				(alternate "SDIO1_D0" bidirectional line)
+				(alternate "SPI4_CS" output line)
+				(alternate "TMR4_CH1" bidirectional line)
+				(alternate "UART5_TX" output line)
+				(alternate "USART1_TX" output line)
+				(alternate "XMC_SD_CS1" output line)
+			)
+			(pin tri_state line
+				(at -11.43 41.91 270)
+				(length 2.54)
+				(name "PB7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "93"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_VSYNC" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SDA" bidirectional line)
+				(alternate "I2S4_CK" output line)
+				(alternate "QSPI2_IO1" bidirectional line)
+				(alternate "SDIO1_D0" bidirectional line)
+				(alternate "SPI4_SCK" output line)
+				(alternate "TMR4_CH2" bidirectional line)
+				(alternate "TMR8_BRK" input line)
+				(alternate "USART1_RX" input line)
+				(alternate "XMC_nADV" input line)
+			)
+			(pin input line
+				(at -13.97 41.91 270)
+				(length 2.54)
+				(name "BOOT0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "94"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -16.51 41.91 270)
+				(length 2.54)
+				(name "PB8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "95"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAN1_RX" input line)
+				(alternate "DVP_D6" input line)
+				(alternate "EMAC_MII_TXD3" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SCL" output line)
+				(alternate "QSPI2_CS" output line)
+				(alternate "SDIO1_D4" bidirectional line)
+				(alternate "SPI4_MISO" input line)
+				(alternate "TMR10_CH1" bidirectional line)
+				(alternate "TMR2_CH1" bidirectional line)
+				(alternate "TMR2_EXT" input line)
+				(alternate "TMR4_CH3" bidirectional line)
+				(alternate "UART5_RX" input line)
+			)
+			(pin tri_state line
+				(at -19.05 41.91 270)
+				(length 2.54)
+				(name "PB9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "96"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAN1_TX" output line)
+				(alternate "DVP_D7" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SDA" bidirectional line)
+				(alternate "I2C2_SDA" bidirectional line)
+				(alternate "I2S2_WS" output line)
+				(alternate "I2S4_SD" bidirectional line)
+				(alternate "IR_OUT" output line)
+				(alternate "QSPI1_CS" output line)
+				(alternate "SDIO1_D5" bidirectional line)
+				(alternate "SPI2_CS" output line)
+				(alternate "SPI4_MOSI" output line)
+				(alternate "TMR11_CH1" bidirectional line)
+				(alternate "TMR2_CH2" bidirectional line)
+				(alternate "TMR4_CH4" bidirectional line)
+				(alternate "UART5_TX" output line)
+			)
+			(pin tri_state line
+				(at -21.59 41.91 270)
+				(length 2.54)
+				(name "PE0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "97"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D2" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "TMR20_EXT" input line)
+				(alternate "TMR4_EXT" input line)
+				(alternate "UART8_RX" input line)
+				(alternate "XMC_LB/XM C_SDDQML" input line)
+			)
+			(pin tri_state line
+				(at -24.13 41.91 270)
+				(length 2.54)
+				(name "PE1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "98"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DVP_D3" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "TMR1_CH2C" output line)
+				(alternate "TMR20_CH4" bidirectional line)
+				(alternate "UART8_TX" output line)
+				(alternate "XMC_UB/X MC_SDDQMH" input line)
+			)
+			(pin power_in line
+				(at -26.67 41.91 270)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "99"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AT32F435VxT7"
+		(extends "AT32F437VxT7")
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "由官方提供"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+)
