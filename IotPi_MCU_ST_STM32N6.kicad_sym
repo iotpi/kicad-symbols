@@ -4215,7 +4215,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -29.21 15.24 0)
 				(length 5.08)
 				(name "VLXSMPS"
@@ -4233,7 +4233,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -29.21 15.24 0)
 				(length 5.08)
 				(hide yes)
@@ -4252,7 +4252,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -29.21 15.24 0)
 				(length 5.08)
 				(hide yes)
@@ -4271,7 +4271,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -29.21 15.24 0)
 				(length 5.08)
 				(hide yes)
@@ -4290,7 +4290,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -29.21 15.24 0)
 				(length 5.08)
 				(hide yes)
