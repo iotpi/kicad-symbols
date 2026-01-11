@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 -45.466 0)
+			(at -17.78 -47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,7 +59,7 @@
 		)
 		(symbol "STM32N657L0H3Q_1_0"
 			(pin tri_state line
-				(at -19.05 40.64 0)
+				(at -29.21 40.64 0)
 				(length 5.08)
 				(name "PA0"
 					(effects
@@ -97,7 +97,7 @@
 				(alternate "WKUP1" input line)
 			)
 			(pin tri_state line
-				(at -19.05 38.1 0)
+				(at -29.21 38.1 0)
 				(length 5.08)
 				(name "PA1"
 					(effects
@@ -129,7 +129,7 @@
 				(alternate "USART2_RTS" output line)
 			)
 			(pin tri_state line
-				(at -19.05 35.56 0)
+				(at -29.21 35.56 0)
 				(length 5.08)
 				(name "PA2"
 					(effects
@@ -161,7 +161,7 @@
 				(alternate "WKUP2" input line)
 			)
 			(pin tri_state line
-				(at -19.05 33.02 0)
+				(at -29.21 33.02 0)
 				(length 5.08)
 				(name "PA3"
 					(effects
@@ -185,7 +185,7 @@
 				(alternate "UART7_RX" input line)
 			)
 			(pin tri_state line
-				(at -19.05 30.48 0)
+				(at -29.21 30.48 0)
 				(length 5.08)
 				(name "PA4"
 					(effects
@@ -208,7 +208,7 @@
 				(alternate "USART6_RX" input line)
 			)
 			(pin tri_state line
-				(at -19.05 27.94 0)
+				(at -29.21 27.94 0)
 				(length 5.08)
 				(name "PA5"
 					(effects
@@ -239,7 +239,7 @@
 				(alternate "TIM9_CH2" output line)
 			)
 			(pin tri_state line
-				(at -19.05 25.4 0)
+				(at -29.21 25.4 0)
 				(length 5.08)
 				(name "PA6"
 					(effects
@@ -274,7 +274,7 @@
 				(alternate "TIM3_CH1" output line)
 			)
 			(pin tri_state line
-				(at -19.05 22.86 0)
+				(at -29.21 22.86 0)
 				(length 5.08)
 				(name "PA7"
 					(effects
@@ -304,7 +304,7 @@
 				(alternate "USART1_RX" input line)
 			)
 			(pin tri_state line
-				(at -19.05 20.32 0)
+				(at -29.21 20.32 0)
 				(length 5.08)
 				(name "PA8"
 					(effects
@@ -335,7 +335,7 @@
 				(alternate "USART1_CK" output clock)
 			)
 			(pin tri_state line
-				(at -19.05 17.78 0)
+				(at -29.21 17.78 0)
 				(length 5.08)
 				(name "PA9"
 					(effects
@@ -366,7 +366,7 @@
 				(alternate "USART1_TX" output line)
 			)
 			(pin tri_state line
-				(at -19.05 15.24 0)
+				(at -29.21 15.24 0)
 				(length 5.08)
 				(name "PA10"
 					(effects
@@ -397,7 +397,7 @@
 				(alternate "USART1_RX" input line)
 			)
 			(pin tri_state line
-				(at -19.05 12.7 0)
+				(at -29.21 12.7 0)
 				(length 5.08)
 				(name "PA11"
 					(effects
@@ -428,7 +428,7 @@
 				(alternate "USART1_CTS/USART1_NSS" output line)
 			)
 			(pin tri_state line
-				(at -19.05 10.16 0)
+				(at -29.21 10.16 0)
 				(length 5.08)
 				(name "PA12"
 					(effects
@@ -460,7 +460,7 @@
 				(alternate "USART1_RTS" output line)
 			)
 			(pin tri_state line
-				(at -19.05 7.62 0)
+				(at -29.21 7.62 0)
 				(length 5.08)
 				(name "PA13"
 					(effects
@@ -480,7 +480,7 @@
 				(alternate "JTMS/SWDIO" bidirectional line)
 			)
 			(pin tri_state line
-				(at -19.05 5.08 0)
+				(at -29.21 5.08 0)
 				(length 5.08)
 				(name "PA14"
 					(effects
@@ -500,7 +500,7 @@
 				(alternate "JTCK/SWCLK" output line)
 			)
 			(pin tri_state line
-				(at -19.05 2.54 0)
+				(at -29.21 2.54 0)
 				(length 5.08)
 				(name "PA15"
 					(effects
@@ -529,7 +529,7 @@
 				(alternate "UART7_TX" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -2.54 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(name "PB0"
 					(effects
@@ -558,7 +558,7 @@
 				(alternate "TRACED1" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -5.08 0)
+				(at -29.21 -5.08 0)
 				(length 5.08)
 				(name "PB1"
 					(effects
@@ -585,7 +585,7 @@
 				(alternate "USART2_TX" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -7.62 0)
+				(at -29.21 -7.62 0)
 				(length 5.08)
 				(name "PB2"
 					(effects
@@ -613,7 +613,7 @@
 				(alternate "TIM1_CH1" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -10.16 0)
+				(at -29.21 -10.16 0)
 				(length 5.08)
 				(name "PB3"
 					(effects
@@ -641,7 +641,7 @@
 				(alternate "USART1_CK" output clock)
 			)
 			(pin tri_state line
-				(at -19.05 -12.7 0)
+				(at -29.21 -12.7 0)
 				(length 5.08)
 				(name "PB4"
 					(effects
@@ -673,7 +673,7 @@
 				(alternate "UART7_TX" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -15.24 0)
+				(at -29.21 -15.24 0)
 				(length 5.08)
 				(name "PB5"
 					(effects
@@ -705,7 +705,7 @@
 				(alternate "UART5_RX" input line)
 			)
 			(pin tri_state line
-				(at -19.05 -17.78 0)
+				(at -29.21 -17.78 0)
 				(length 5.08)
 				(name "PB6"
 					(effects
@@ -733,7 +733,7 @@
 				(alternate "TRACED2" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -20.32 0)
+				(at -29.21 -20.32 0)
 				(length 5.08)
 				(name "PB7"
 					(effects
@@ -763,7 +763,7 @@
 				(alternate "TRACED3" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -22.86 0)
+				(at -29.21 -22.86 0)
 				(length 5.08)
 				(name "PB8"
 					(effects
@@ -789,7 +789,7 @@
 				(alternate "USART6_RX" input line)
 			)
 			(pin tri_state line
-				(at -19.05 -25.4 0)
+				(at -29.21 -25.4 0)
 				(length 5.08)
 				(name "PB9"
 					(effects
@@ -815,7 +815,7 @@
 				(alternate "USART10_TX" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -27.94 0)
+				(at -29.21 -27.94 0)
 				(length 5.08)
 				(name "PB10"
 					(effects
@@ -846,7 +846,7 @@
 				(alternate "USART3_TX" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -30.48 0)
+				(at -29.21 -30.48 0)
 				(length 5.08)
 				(name "PB11"
 					(effects
@@ -874,7 +874,7 @@
 				(alternate "USART3_RX" input line)
 			)
 			(pin tri_state line
-				(at -19.05 -33.02 0)
+				(at -29.21 -33.02 0)
 				(length 5.08)
 				(name "PB12"
 					(effects
@@ -902,7 +902,7 @@
 				(alternate "USART3_CK" output clock)
 			)
 			(pin tri_state line
-				(at -19.05 -35.56 0)
+				(at -29.21 -35.56 0)
 				(length 5.08)
 				(name "PB13"
 					(effects
@@ -930,7 +930,7 @@
 				(alternate "USART6_CTS/USART6_NSS" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -38.1 0)
+				(at -29.21 -38.1 0)
 				(length 5.08)
 				(name "PB14"
 					(effects
@@ -958,7 +958,7 @@
 				(alternate "USART6_NSS" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -40.64 0)
+				(at -29.21 -40.64 0)
 				(length 5.08)
 				(name "PB15"
 					(effects
@@ -982,7 +982,7 @@
 				(alternate "USART6_RTS" output line)
 			)
 			(pin tri_state line
-				(at 19.05 38.1 180)
+				(at 29.21 38.1 180)
 				(length 5.08)
 				(name "PC1"
 					(effects
@@ -1012,7 +1012,7 @@
 				(alternate "UART4_TX" output line)
 			)
 			(pin tri_state line
-				(at 19.05 25.4 180)
+				(at 29.21 25.4 180)
 				(length 5.08)
 				(name "PC6"
 					(effects
@@ -1040,7 +1040,7 @@
 				(alternate "USART6_TX" output line)
 			)
 			(pin tri_state line
-				(at 19.05 22.86 180)
+				(at 29.21 22.86 180)
 				(length 5.08)
 				(name "PC7"
 					(effects
@@ -1069,7 +1069,7 @@
 				(alternate "USART6_RX" input line)
 			)
 			(pin tri_state line
-				(at 19.05 20.32 180)
+				(at 29.21 20.32 180)
 				(length 5.08)
 				(name "PC8"
 					(effects
@@ -1098,7 +1098,7 @@
 				(alternate "USART6_CK" output clock)
 			)
 			(pin tri_state line
-				(at 19.05 17.78 180)
+				(at 29.21 17.78 180)
 				(length 5.08)
 				(name "PC9"
 					(effects
@@ -1127,7 +1127,7 @@
 				(alternate "USART6_RX" input line)
 			)
 			(pin tri_state line
-				(at 19.05 15.24 180)
+				(at 29.21 15.24 180)
 				(length 5.08)
 				(name "PC10"
 					(effects
@@ -1156,7 +1156,7 @@
 				(alternate "USART3_TX" output line)
 			)
 			(pin tri_state line
-				(at 19.05 12.7 180)
+				(at 29.21 12.7 180)
 				(length 5.08)
 				(name "PC11"
 					(effects
@@ -1183,7 +1183,7 @@
 				(alternate "USART3_RX" input line)
 			)
 			(pin tri_state line
-				(at 19.05 10.16 180)
+				(at 29.21 10.16 180)
 				(length 5.08)
 				(name "PC12"
 					(effects
@@ -1214,7 +1214,7 @@
 				(alternate "USART3_CK" output clock)
 			)
 			(pin tri_state line
-				(at 19.05 7.62 180)
+				(at 29.21 7.62 180)
 				(length 5.08)
 				(name "PC13"
 					(effects
@@ -1238,7 +1238,7 @@
 				(alternate "WKUP3" input line)
 			)
 			(pin tri_state line
-				(at 19.05 5.08 180)
+				(at 29.21 5.08 180)
 				(length 5.08)
 				(name "PC14"
 					(effects
@@ -1257,7 +1257,7 @@
 				(alternate "OSC32_IN" passive clock)
 			)
 			(pin tri_state line
-				(at 19.05 2.54 180)
+				(at 29.21 2.54 180)
 				(length 5.08)
 				(name "PC15"
 					(effects
@@ -1276,7 +1276,7 @@
 				(alternate "OSC32_OUT" passive clock)
 			)
 			(pin tri_state line
-				(at 19.05 -2.54 180)
+				(at 29.21 -2.54 180)
 				(length 5.08)
 				(name "PD0"
 					(effects
@@ -1302,7 +1302,7 @@
 				(alternate "UART9_CTS" input line)
 			)
 			(pin tri_state line
-				(at 19.05 -5.08 180)
+				(at 29.21 -5.08 180)
 				(length 5.08)
 				(name "PD1"
 					(effects
@@ -1326,7 +1326,7 @@
 				(alternate "UART4_TX" output line)
 			)
 			(pin tri_state line
-				(at 19.05 -7.62 180)
+				(at 29.21 -7.62 180)
 				(length 5.08)
 				(name "PD2"
 					(effects
@@ -1360,7 +1360,7 @@
 				(alternate "WKUP4" input line)
 			)
 			(pin tri_state line
-				(at 19.05 -10.16 180)
+				(at 29.21 -10.16 180)
 				(length 5.08)
 				(name "PD3"
 					(effects
@@ -1385,7 +1385,7 @@
 				(alternate "USART6_CTS" input line)
 			)
 			(pin tri_state line
-				(at 19.05 -12.7 180)
+				(at 29.21 -12.7 180)
 				(length 5.08)
 				(name "PD4"
 					(effects
@@ -1412,7 +1412,7 @@
 				(alternate "USART6_RTS" output line)
 			)
 			(pin tri_state line
-				(at 19.05 -15.24 180)
+				(at 29.21 -15.24 180)
 				(length 5.08)
 				(name "PD5"
 					(effects
@@ -1436,7 +1436,7 @@
 				(alternate "USART2_TX" output line)
 			)
 			(pin tri_state line
-				(at 19.05 -17.78 180)
+				(at 29.21 -17.78 180)
 				(length 5.08)
 				(name "PD6"
 					(effects
@@ -1462,7 +1462,7 @@
 				(alternate "TIM1_CH1" output line)
 			)
 			(pin tri_state line
-				(at 19.05 -20.32 180)
+				(at 29.21 -20.32 180)
 				(length 5.08)
 				(name "PD7"
 					(effects
@@ -1490,7 +1490,7 @@
 				(alternate "TIM1_CH2" output line)
 			)
 			(pin tri_state line
-				(at 19.05 -22.86 180)
+				(at 29.21 -22.86 180)
 				(length 5.08)
 				(name "PD8"
 					(effects
@@ -1516,7 +1516,7 @@
 				(alternate "USART3_TX" output line)
 			)
 			(pin tri_state line
-				(at 19.05 -25.4 180)
+				(at 29.21 -25.4 180)
 				(length 5.08)
 				(name "PD9"
 					(effects
@@ -1541,7 +1541,7 @@
 				(alternate "USART3_RX" input line)
 			)
 			(pin tri_state line
-				(at 19.05 -27.94 180)
+				(at 29.21 -27.94 180)
 				(length 5.08)
 				(name "PD10"
 					(effects
@@ -1570,7 +1570,7 @@
 				(alternate "UCPD1_FRSTX1" output line)
 			)
 			(pin tri_state line
-				(at 19.05 -30.48 180)
+				(at 29.21 -30.48 180)
 				(length 5.08)
 				(name "PD11"
 					(effects
@@ -1596,7 +1596,7 @@
 				(alternate "UCPD1_FRSTX1" output line)
 			)
 			(pin tri_state line
-				(at 19.05 -33.02 180)
+				(at 29.21 -33.02 180)
 				(length 5.08)
 				(name "PD12"
 					(effects
@@ -1623,7 +1623,7 @@
 				(alternate "UCPD1_FRSTX2" output line)
 			)
 			(pin tri_state line
-				(at 19.05 -35.56 180)
+				(at 29.21 -35.56 180)
 				(length 5.08)
 				(name "PD13"
 					(effects
@@ -1650,7 +1650,7 @@
 				(alternate "UCPD1_FRSTX2" output line)
 			)
 			(pin tri_state line
-				(at 19.05 -38.1 180)
+				(at 29.21 -38.1 180)
 				(length 5.08)
 				(name "PD14"
 					(effects
@@ -1672,7 +1672,7 @@
 				(alternate "USART10_RX" input line)
 			)
 			(pin tri_state line
-				(at 19.05 -40.64 180)
+				(at 29.21 -40.64 180)
 				(length 5.08)
 				(name "PD15"
 					(effects
@@ -1697,8 +1697,8 @@
 		)
 		(symbol "STM32N657L0H3Q_1_1"
 			(rectangle
-				(start -13.97 44.45)
-				(end 13.97 -44.45)
+				(start -24.13 45.085)
+				(end 24.13 -45.085)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1710,7 +1710,7 @@
 		)
 		(symbol "STM32N657L0H3Q_2_0"
 			(pin tri_state line
-				(at -19.05 40.64 0)
+				(at -29.21 40.64 0)
 				(length 5.08)
 				(name "PE0"
 					(effects
@@ -1739,7 +1739,7 @@
 				(alternate "USART3_RX" input line)
 			)
 			(pin tri_state line
-				(at -19.05 38.1 0)
+				(at -29.21 38.1 0)
 				(length 5.08)
 				(name "PE1"
 					(effects
@@ -1764,7 +1764,7 @@
 				(alternate "USART3_TX" output line)
 			)
 			(pin tri_state line
-				(at -19.05 35.56 0)
+				(at -29.21 35.56 0)
 				(length 5.08)
 				(name "PE2"
 					(effects
@@ -1793,7 +1793,7 @@
 				(alternate "UCPD1_FRSTX1" output line)
 			)
 			(pin tri_state line
-				(at -19.05 33.02 0)
+				(at -29.21 33.02 0)
 				(length 5.08)
 				(name "PE3"
 					(effects
@@ -1818,7 +1818,7 @@
 				(alternate "TRACED0" input line)
 			)
 			(pin tri_state line
-				(at -19.05 27.94 0)
+				(at -29.21 27.94 0)
 				(length 5.08)
 				(name "PE5"
 					(effects
@@ -1847,7 +1847,7 @@
 				(alternate "USART1_TX(boot)" output line)
 			)
 			(pin tri_state line
-				(at -19.05 25.4 0)
+				(at -29.21 25.4 0)
 				(length 5.08)
 				(name "PE6"
 					(effects
@@ -1876,7 +1876,7 @@
 				(alternate "USART1_RX(boot)" input line)
 			)
 			(pin tri_state line
-				(at -19.05 22.86 0)
+				(at -29.21 22.86 0)
 				(length 5.08)
 				(name "PE7"
 					(effects
@@ -1901,7 +1901,7 @@
 				(alternate "UART7_RX" input line)
 			)
 			(pin tri_state line
-				(at -19.05 20.32 0)
+				(at -29.21 20.32 0)
 				(length 5.08)
 				(name "PE8"
 					(effects
@@ -1926,7 +1926,7 @@
 				(alternate "USART3_TX" output line)
 			)
 			(pin tri_state line
-				(at -19.05 17.78 0)
+				(at -29.21 17.78 0)
 				(length 5.08)
 				(name "PE9"
 					(effects
@@ -1949,7 +1949,7 @@
 				(alternate "VENTOUT" output line)
 			)
 			(pin tri_state line
-				(at -19.05 15.24 0)
+				(at -29.21 15.24 0)
 				(length 5.08)
 				(name "PE10"
 					(effects
@@ -1975,7 +1975,7 @@
 				(alternate "USART3_RX" input line)
 			)
 			(pin tri_state line
-				(at -19.05 12.7 0)
+				(at -29.21 12.7 0)
 				(length 5.08)
 				(name "PE11"
 					(effects
@@ -2001,7 +2001,7 @@
 				(alternate "TIM1_CH2" output line)
 			)
 			(pin tri_state line
-				(at -19.05 10.16 0)
+				(at -29.21 10.16 0)
 				(length 5.08)
 				(name "PE12"
 					(effects
@@ -2026,7 +2026,7 @@
 				(alternate "TIM1_CH3N" output line)
 			)
 			(pin tri_state line
-				(at -19.05 7.62 0)
+				(at -29.21 7.62 0)
 				(length 5.08)
 				(name "PE13"
 					(effects
@@ -2051,7 +2051,7 @@
 				(alternate "TIM1_CH3" output line)
 			)
 			(pin tri_state line
-				(at -19.05 5.08 0)
+				(at -29.21 5.08 0)
 				(length 5.08)
 				(name "PE14"
 					(effects
@@ -2079,7 +2079,7 @@
 				(alternate "TIM1_CH4" output line)
 			)
 			(pin tri_state line
-				(at -19.05 2.54 0)
+				(at -29.21 2.54 0)
 				(length 5.08)
 				(name "PE15"
 					(effects
@@ -2107,7 +2107,7 @@
 				(alternate "USART2_CK" output clock)
 			)
 			(pin tri_state line
-				(at -19.05 -2.54 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(name "PF0"
 					(effects
@@ -2134,7 +2134,7 @@
 				(alternate "UCPD1_FRSTX2" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -5.08 0)
+				(at -29.21 -5.08 0)
 				(length 5.08)
 				(name "PF1"
 					(effects
@@ -2161,7 +2161,7 @@
 				(alternate "UCPD1_FRSTX1" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -7.62 0)
+				(at -29.21 -7.62 0)
 				(length 5.08)
 				(name "PF2"
 					(effects
@@ -2189,7 +2189,7 @@
 				(alternate "USART2_NSS" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -10.16 0)
+				(at -29.21 -10.16 0)
 				(length 5.08)
 				(name "PF3"
 					(effects
@@ -2215,7 +2215,7 @@
 				(alternate "USART2_RTS" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -12.7 0)
+				(at -29.21 -12.7 0)
 				(length 5.08)
 				(name "PF4"
 					(effects
@@ -2247,7 +2247,7 @@
 				(alternate "USART2_CK" output clock)
 			)
 			(pin tri_state line
-				(at -19.05 -15.24 0)
+				(at -29.21 -15.24 0)
 				(length 5.08)
 				(name "PF5"
 					(effects
@@ -2275,7 +2275,7 @@
 				(alternate "USART3_NSS" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -17.78 0)
+				(at -29.21 -17.78 0)
 				(length 5.08)
 				(name "PF6"
 					(effects
@@ -2310,7 +2310,7 @@
 				(alternate "USART2_RX(boot)" input line)
 			)
 			(pin tri_state line
-				(at -19.05 -20.32 0)
+				(at -29.21 -20.32 0)
 				(length 5.08)
 				(name "PF7"
 					(effects
@@ -2345,7 +2345,7 @@
 				(alternate "UART4_CTS" input line)
 			)
 			(pin tri_state line
-				(at -19.05 -22.86 0)
+				(at -29.21 -22.86 0)
 				(length 5.08)
 				(name "PF8"
 					(effects
@@ -2370,7 +2370,7 @@
 				(alternate "UART9_TX" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -25.4 0)
+				(at -29.21 -25.4 0)
 				(length 5.08)
 				(name "PF9"
 					(effects
@@ -2393,7 +2393,7 @@
 				(alternate "TRACED0" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -27.94 0)
+				(at -29.21 -27.94 0)
 				(length 5.08)
 				(name "PF10"
 					(effects
@@ -2423,7 +2423,7 @@
 				(alternate "UCPD1_FRSTX1" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -30.48 0)
+				(at -29.21 -30.48 0)
 				(length 5.08)
 				(name "PF11"
 					(effects
@@ -2450,7 +2450,7 @@
 				(alternate "SPI5_MOSI" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -33.02 0)
+				(at -29.21 -33.02 0)
 				(length 5.08)
 				(name "PF12"
 					(effects
@@ -2477,7 +2477,7 @@
 				(alternate "USART1_RX" input line)
 			)
 			(pin tri_state line
-				(at -19.05 -35.56 0)
+				(at -29.21 -35.56 0)
 				(length 5.08)
 				(name "PF13"
 					(effects
@@ -2503,7 +2503,7 @@
 				(alternate "USART1_TX" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -38.1 0)
+				(at -29.21 -38.1 0)
 				(length 5.08)
 				(name "PF14"
 					(effects
@@ -2531,7 +2531,7 @@
 				(alternate "USART1_CTS" input line)
 			)
 			(pin tri_state line
-				(at -19.05 -40.64 0)
+				(at -29.21 -40.64 0)
 				(length 5.08)
 				(name "PF15"
 					(effects
@@ -2556,7 +2556,7 @@
 				(alternate "USART1_RTS" output line)
 			)
 			(pin tri_state line
-				(at 19.05 40.64 180)
+				(at 29.21 40.64 180)
 				(length 5.08)
 				(name "PG0"
 					(effects
@@ -2581,7 +2581,7 @@
 				(alternate "UART9_RX" input line)
 			)
 			(pin tri_state line
-				(at 19.05 38.1 180)
+				(at 29.21 38.1 180)
 				(length 5.08)
 				(name "PG1"
 					(effects
@@ -2608,7 +2608,7 @@
 				(alternate "UART7_RTS" output line)
 			)
 			(pin tri_state line
-				(at 19.05 35.56 180)
+				(at 29.21 35.56 180)
 				(length 5.08)
 				(name "PG2"
 					(effects
@@ -2637,7 +2637,7 @@
 				(alternate "USART3_RTS" output line)
 			)
 			(pin tri_state line
-				(at 19.05 33.02 180)
+				(at 29.21 33.02 180)
 				(length 5.08)
 				(name "PG3"
 					(effects
@@ -2661,7 +2661,7 @@
 				(alternate "USART2_TX" output line)
 			)
 			(pin tri_state line
-				(at 19.05 30.48 180)
+				(at 29.21 30.48 180)
 				(length 5.08)
 				(name "PG4"
 					(effects
@@ -2684,7 +2684,7 @@
 				(alternate "TIM1_BKIN2" input line)
 			)
 			(pin tri_state line
-				(at 19.05 27.94 180)
+				(at 29.21 27.94 180)
 				(length 5.08)
 				(name "PG5"
 					(effects
@@ -2708,7 +2708,7 @@
 				(alternate "USART2_NSS" output line)
 			)
 			(pin tri_state line
-				(at 19.05 25.4 180)
+				(at 29.21 25.4 180)
 				(length 5.08)
 				(name "PG6"
 					(effects
@@ -2732,7 +2732,7 @@
 				(alternate "USART6_CK" output clock)
 			)
 			(pin tri_state line
-				(at 19.05 20.32 180)
+				(at 29.21 20.32 180)
 				(length 5.08)
 				(name "PG8"
 					(effects
@@ -2763,7 +2763,7 @@
 				(alternate "USART1_RX" input line)
 			)
 			(pin tri_state line
-				(at 19.05 17.78 180)
+				(at 29.21 17.78 180)
 				(length 5.08)
 				(name "PG9"
 					(effects
@@ -2784,7 +2784,7 @@
 				(alternate "LCD_R7" output line)
 			)
 			(pin tri_state line
-				(at 19.05 15.24 180)
+				(at 29.21 15.24 180)
 				(length 5.08)
 				(name "PG10"
 					(effects
@@ -2815,7 +2815,7 @@
 				(alternate "USART3_NSS" input line)
 			)
 			(pin tri_state line
-				(at 19.05 12.7 180)
+				(at 29.21 12.7 180)
 				(length 5.08)
 				(name "PG11"
 					(effects
@@ -2837,7 +2837,7 @@
 				(alternate "UART7_RX" input line)
 			)
 			(pin tri_state line
-				(at 19.05 10.16 180)
+				(at 29.21 10.16 180)
 				(length 5.08)
 				(name "PG12"
 					(effects
@@ -2862,7 +2862,7 @@
 				(alternate "UART7_TX" output line)
 			)
 			(pin tri_state line
-				(at 19.05 7.62 180)
+				(at 29.21 7.62 180)
 				(length 5.08)
 				(name "PG13"
 					(effects
@@ -2889,7 +2889,7 @@
 				(alternate "USART3_RTS" output line)
 			)
 			(pin tri_state line
-				(at 19.05 5.08 180)
+				(at 29.21 5.08 180)
 				(length 5.08)
 				(name "PG14"
 					(effects
@@ -2920,7 +2920,7 @@
 				(alternate "USART6_TX" output line)
 			)
 			(pin tri_state line
-				(at 19.05 2.54 180)
+				(at 29.21 2.54 180)
 				(length 5.08)
 				(name "PG15"
 					(effects
@@ -2953,7 +2953,7 @@
 				(alternate "USART3_CK" output clock)
 			)
 			(pin tri_state line
-				(at 19.05 -2.54 180)
+				(at 29.21 -2.54 180)
 				(length 5.08)
 				(name "PH0"
 					(effects
@@ -2973,7 +2973,7 @@
 				(alternate "OSC_IN" passive clock)
 			)
 			(pin tri_state line
-				(at 19.05 -5.08 180)
+				(at 29.21 -5.08 180)
 				(length 5.08)
 				(name "PH1"
 					(effects
@@ -2993,7 +2993,7 @@
 				(alternate "OSC_OUT" passive clock)
 			)
 			(pin tri_state line
-				(at 19.05 -7.62 180)
+				(at 29.21 -7.62 180)
 				(length 5.08)
 				(name "PH2"
 					(effects
@@ -3021,7 +3021,7 @@
 				(alternate "UART5_RX" input line)
 			)
 			(pin tri_state line
-				(at 19.05 -25.4 180)
+				(at 29.21 -25.4 180)
 				(length 5.08)
 				(name "PH9"
 					(effects
@@ -3054,8 +3054,8 @@
 		)
 		(symbol "STM32N657L0H3Q_2_1"
 			(rectangle
-				(start -13.97 43.18)
-				(end 13.97 -43.18)
+				(start -24.13 43.815)
+				(end 24.13 -43.18)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3067,7 +3067,7 @@
 		)
 		(symbol "STM32N657L0H3Q_3_0"
 			(pin tri_state line
-				(at -19.05 40.64 0)
+				(at -29.21 40.64 0)
 				(length 5.08)
 				(name "PN0"
 					(effects
@@ -3088,7 +3088,7 @@
 				(alternate "XSPIM_P2_DQS0(boot)" output line)
 			)
 			(pin tri_state line
-				(at -19.05 38.1 0)
+				(at -29.21 38.1 0)
 				(length 5.08)
 				(name "PN1"
 					(effects
@@ -3109,7 +3109,7 @@
 				(alternate "XSPIM_P2_NCS1(boot)" output line)
 			)
 			(pin tri_state line
-				(at -19.05 35.56 0)
+				(at -29.21 35.56 0)
 				(length 5.08)
 				(name "PN2"
 					(effects
@@ -3130,7 +3130,7 @@
 				(alternate "XSPIM_P2_IO0(boot)" bidirectional line)
 			)
 			(pin tri_state line
-				(at -19.05 33.02 0)
+				(at -29.21 33.02 0)
 				(length 5.08)
 				(name "PN3"
 					(effects
@@ -3151,7 +3151,7 @@
 				(alternate "XSPIM_P2_IO1(boot)" bidirectional line)
 			)
 			(pin tri_state line
-				(at -19.05 30.48 0)
+				(at -29.21 30.48 0)
 				(length 5.08)
 				(name "PN4"
 					(effects
@@ -3171,7 +3171,7 @@
 				(alternate "XSPIM_P2_IO2(boot)" bidirectional line)
 			)
 			(pin tri_state line
-				(at -19.05 27.94 0)
+				(at -29.21 27.94 0)
 				(length 5.08)
 				(name "PN5"
 					(effects
@@ -3191,7 +3191,7 @@
 				(alternate "XSPIM_P2_IO3(boot)" bidirectional line)
 			)
 			(pin tri_state line
-				(at -19.05 25.4 0)
+				(at -29.21 25.4 0)
 				(length 5.08)
 				(name "PN6"
 					(effects
@@ -3211,7 +3211,7 @@
 				(alternate "XSPIM_P2_CLK(boot)" output clock)
 			)
 			(pin tri_state line
-				(at -19.05 22.86 0)
+				(at -29.21 22.86 0)
 				(length 5.08)
 				(name "PN7"
 					(effects
@@ -3231,7 +3231,7 @@
 				(alternate "XSPIM_P2_NCLK(boot)" output inverted_clock)
 			)
 			(pin tri_state line
-				(at -19.05 20.32 0)
+				(at -29.21 20.32 0)
 				(length 5.08)
 				(name "PN8"
 					(effects
@@ -3251,7 +3251,7 @@
 				(alternate "XSPIM_P2_IO4(boot)" bidirectional line)
 			)
 			(pin tri_state line
-				(at -19.05 17.78 0)
+				(at -29.21 17.78 0)
 				(length 5.08)
 				(name "PN9"
 					(effects
@@ -3272,7 +3272,7 @@
 				(alternate "XSPIM_P2_IO5(boot)" bidirectional line)
 			)
 			(pin tri_state line
-				(at -19.05 15.24 0)
+				(at -29.21 15.24 0)
 				(length 5.08)
 				(name "PN10"
 					(effects
@@ -3293,7 +3293,7 @@
 				(alternate "XSPIM_P2_IO6(boot)" bidirectional line)
 			)
 			(pin tri_state line
-				(at -19.05 12.7 0)
+				(at -29.21 12.7 0)
 				(length 5.08)
 				(name "PN11"
 					(effects
@@ -3314,7 +3314,7 @@
 				(alternate "XSPIM_P2_IO7(boot)" bidirectional line)
 			)
 			(pin tri_state line
-				(at -19.05 10.16 0)
+				(at -29.21 10.16 0)
 				(length 5.08)
 				(name "PN12"
 					(effects
@@ -3334,7 +3334,7 @@
 				(alternate "XSPIM_P2_NCS2" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -2.54 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(name "PO0"
 					(effects
@@ -3355,7 +3355,7 @@
 				(alternate "XSPIM_P1_NCS1" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -5.08 0)
+				(at -29.21 -5.08 0)
 				(length 5.08)
 				(name "PO1"
 					(effects
@@ -3376,7 +3376,7 @@
 				(alternate "XSPIM_P1_NCS2" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -7.62 0)
+				(at -29.21 -7.62 0)
 				(length 5.08)
 				(name "PO2"
 					(effects
@@ -3398,7 +3398,7 @@
 				(alternate "XSPIM_P1_DQS0" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -10.16 0)
+				(at -29.21 -10.16 0)
 				(length 5.08)
 				(name "PO3"
 					(effects
@@ -3420,7 +3420,7 @@
 				(alternate "XSPIM_P1_DQS1" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -12.7 0)
+				(at -29.21 -12.7 0)
 				(length 5.08)
 				(name "PO4"
 					(effects
@@ -3443,7 +3443,7 @@
 				(alternate "XSPIM_P1_CLK" output line)
 			)
 			(pin tri_state line
-				(at -19.05 -15.24 0)
+				(at -29.21 -15.24 0)
 				(length 5.08)
 				(name "PO5"
 					(effects
@@ -3465,7 +3465,7 @@
 				(alternate "XSPIM_P1_NCLK" output inverted_clock)
 			)
 			(pin input line
-				(at -19.05 -20.32 0)
+				(at -29.21 -20.32 0)
 				(length 5.08)
 				(name "CSI_REXT"
 					(effects
@@ -3483,7 +3483,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -22.86 0)
+				(at -29.21 -22.86 0)
 				(length 5.08)
 				(name "CSI_D1P"
 					(effects
@@ -3501,7 +3501,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -25.4 0)
+				(at -29.21 -25.4 0)
 				(length 5.08)
 				(name "CSI_D1N"
 					(effects
@@ -3519,7 +3519,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -27.94 0)
+				(at -29.21 -27.94 0)
 				(length 5.08)
 				(name "CSI_D0P"
 					(effects
@@ -3537,7 +3537,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -30.48 0)
+				(at -29.21 -30.48 0)
 				(length 5.08)
 				(name "CSI_D0N"
 					(effects
@@ -3555,7 +3555,7 @@
 				)
 			)
 			(pin output line
-				(at -19.05 -33.02 0)
+				(at -29.21 -33.02 0)
 				(length 5.08)
 				(name "CSI_CKP"
 					(effects
@@ -3573,7 +3573,7 @@
 				)
 			)
 			(pin output line
-				(at -19.05 -35.56 0)
+				(at -29.21 -35.56 0)
 				(length 5.08)
 				(name "CSI_CKN"
 					(effects
@@ -3591,7 +3591,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 19.05 40.64 180)
+				(at 29.21 40.64 180)
 				(length 5.08)
 				(name "PP0"
 					(effects
@@ -3612,7 +3612,7 @@
 				(alternate "XSPIM_P1_IO0" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 38.1 180)
+				(at 29.21 38.1 180)
 				(length 5.08)
 				(name "PP1"
 					(effects
@@ -3633,7 +3633,7 @@
 				(alternate "XSPIM_P1_IO1" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 35.56 180)
+				(at 29.21 35.56 180)
 				(length 5.08)
 				(name "PP2"
 					(effects
@@ -3654,7 +3654,7 @@
 				(alternate "XSPIM_P1_IO2" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 33.02 180)
+				(at 29.21 33.02 180)
 				(length 5.08)
 				(name "PP3"
 					(effects
@@ -3675,7 +3675,7 @@
 				(alternate "XSPIM_P1_IO3" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 30.48 180)
+				(at 29.21 30.48 180)
 				(length 5.08)
 				(name "PP4"
 					(effects
@@ -3696,7 +3696,7 @@
 				(alternate "XSPIM_P1_IO4" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 27.94 180)
+				(at 29.21 27.94 180)
 				(length 5.08)
 				(name "PP5"
 					(effects
@@ -3717,7 +3717,7 @@
 				(alternate "XSPIM_P1_IO5" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 25.4 180)
+				(at 29.21 25.4 180)
 				(length 5.08)
 				(name "PP6"
 					(effects
@@ -3738,7 +3738,7 @@
 				(alternate "XSPIM_P1_IO6" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 22.86 180)
+				(at 29.21 22.86 180)
 				(length 5.08)
 				(name "PP7"
 					(effects
@@ -3759,7 +3759,7 @@
 				(alternate "XSPIM_P1_IO7" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 20.32 180)
+				(at 29.21 20.32 180)
 				(length 5.08)
 				(name "PP8"
 					(effects
@@ -3781,7 +3781,7 @@
 				(alternate "XSPIM_P1_IO8" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 17.78 180)
+				(at 29.21 17.78 180)
 				(length 5.08)
 				(name "PP9"
 					(effects
@@ -3803,7 +3803,7 @@
 				(alternate "XSPIM_P1_IO9" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 15.24 180)
+				(at 29.21 15.24 180)
 				(length 5.08)
 				(name "PP10"
 					(effects
@@ -3825,7 +3825,7 @@
 				(alternate "XSPIM_P1_IO10" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 12.7 180)
+				(at 29.21 12.7 180)
 				(length 5.08)
 				(name "PP11"
 					(effects
@@ -3846,7 +3846,7 @@
 				(alternate "XSPIM_P1_IO11" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 10.16 180)
+				(at 29.21 10.16 180)
 				(length 5.08)
 				(name "PP12"
 					(effects
@@ -3867,7 +3867,7 @@
 				(alternate "XSPIM_P1_IO12" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 7.62 180)
+				(at 29.21 7.62 180)
 				(length 5.08)
 				(name "PP13"
 					(effects
@@ -3888,7 +3888,7 @@
 				(alternate "XSPIM_P1_IO13" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 5.08 180)
+				(at 29.21 5.08 180)
 				(length 5.08)
 				(name "PP14"
 					(effects
@@ -3909,7 +3909,7 @@
 				(alternate "XSPIM_P1_IO14" bidirectional line)
 			)
 			(pin tri_state line
-				(at 19.05 2.54 180)
+				(at 29.21 2.54 180)
 				(length 5.08)
 				(name "PP15"
 					(effects
@@ -3931,7 +3931,7 @@
 				(alternate "XSPIM_P1_IO15" bidirectional line)
 			)
 			(pin input line
-				(at 19.05 -2.54 180)
+				(at 29.21 -2.54 180)
 				(length 5.08)
 				(name "OTG1_ID"
 					(effects
@@ -3949,7 +3949,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -5.08 180)
+				(at 29.21 -5.08 180)
 				(length 5.08)
 				(name "OTG1_TXRTUNE"
 					(effects
@@ -3967,7 +3967,7 @@
 				)
 			)
 			(pin output line
-				(at 19.05 -7.62 180)
+				(at 29.21 -7.62 180)
 				(length 5.08)
 				(name "UCPD1_CC2"
 					(effects
@@ -3985,7 +3985,7 @@
 				)
 			)
 			(pin output line
-				(at 19.05 -10.16 180)
+				(at 29.21 -10.16 180)
 				(length 5.08)
 				(name "UCPD1_CC1"
 					(effects
@@ -4003,7 +4003,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -12.7 180)
+				(at 29.21 -12.7 180)
 				(length 5.08)
 				(name "OTG1_HSDP"
 					(effects
@@ -4021,7 +4021,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -15.24 180)
+				(at 29.21 -15.24 180)
 				(length 5.08)
 				(name "OTG1_HSDM"
 					(effects
@@ -4039,7 +4039,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -20.32 180)
+				(at 29.21 -20.32 180)
 				(length 5.08)
 				(name "OTG2_ID"
 					(effects
@@ -4057,7 +4057,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -22.86 180)
+				(at 29.21 -22.86 180)
 				(length 5.08)
 				(name "OTG2_TXRTUNE"
 					(effects
@@ -4075,7 +4075,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -25.4 180)
+				(at 29.21 -25.4 180)
 				(length 5.08)
 				(name "OTG2_HSDP"
 					(effects
@@ -4093,7 +4093,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -27.94 180)
+				(at 29.21 -27.94 180)
 				(length 5.08)
 				(name "OTG2_HSDM"
 					(effects
@@ -4111,7 +4111,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -31.75 180)
+				(at 29.21 -31.75 180)
 				(length 5.08)
 				(name "NRST"
 					(effects
@@ -4129,7 +4129,7 @@
 				)
 			)
 			(pin output line
-				(at 19.05 -34.29 180)
+				(at 29.21 -34.29 180)
 				(length 5.08)
 				(name "PWR_ON"
 					(effects
@@ -4147,7 +4147,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -36.83 180)
+				(at 29.21 -36.83 180)
 				(length 5.08)
 				(name "PDR_ON"
 					(effects
@@ -4165,7 +4165,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -39.37 180)
+				(at 29.21 -39.37 180)
 				(length 5.08)
 				(name "BOOT0"
 					(effects
@@ -4185,8 +4185,8 @@
 		)
 		(symbol "STM32N657L0H3Q_3_1"
 			(rectangle
-				(start -13.97 43.18)
-				(end 13.97 -43.18)
+				(start -24.13 43.18)
+				(end 24.13 -43.18)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4198,7 +4198,7 @@
 		)
 		(symbol "STM32N657L0H3Q_4_0"
 			(pin input line
-				(at -19.05 17.78 0)
+				(at -29.21 17.78 0)
 				(length 5.08)
 				(name "VFBSMPS"
 					(effects
@@ -4216,7 +4216,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 15.24 0)
+				(at -29.21 15.24 0)
 				(length 5.08)
 				(name "VLXSMPS"
 					(effects
@@ -4234,7 +4234,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 15.24 0)
+				(at -29.21 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VLXSMPS"
@@ -4253,7 +4253,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 15.24 0)
+				(at -29.21 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VLXSMPS"
@@ -4272,7 +4272,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 15.24 0)
+				(at -29.21 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VLXSMPS"
@@ -4291,7 +4291,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 15.24 0)
+				(at -29.21 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VLXSMPS"
@@ -4310,7 +4310,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 12.7 0)
+				(at -29.21 12.7 0)
 				(length 5.08)
 				(name "VDDA18PMU"
 					(effects
@@ -4328,7 +4328,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 10.16 0)
+				(at -29.21 10.16 0)
 				(length 5.08)
 				(name "VDDA18AON"
 					(effects
@@ -4346,7 +4346,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 7.62 0)
+				(at -29.21 7.62 0)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -4364,7 +4364,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 7.62 0)
+				(at -29.21 7.62 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4383,7 +4383,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 7.62 0)
+				(at -29.21 7.62 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4402,7 +4402,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 5.08 0)
+				(at -29.21 5.08 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDDCORE"
@@ -4421,7 +4421,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 5.08 0)
+				(at -29.21 5.08 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDDCORE"
@@ -4440,7 +4440,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 5.08 0)
+				(at -29.21 5.08 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDDCORE"
@@ -4459,7 +4459,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 5.08 0)
+				(at -29.21 5.08 0)
 				(length 5.08)
 				(name "VDDCORE"
 					(effects
@@ -4477,7 +4477,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 5.08 0)
+				(at -29.21 5.08 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDDCORE"
@@ -4496,7 +4496,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 2.54 0)
+				(at -29.21 2.54 0)
 				(length 5.08)
 				(name "VDDSMPS"
 					(effects
@@ -4514,7 +4514,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 2.54 0)
+				(at -29.21 2.54 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDDSMPS"
@@ -4533,7 +4533,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 2.54 0)
+				(at -29.21 2.54 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDDSMPS"
@@ -4552,7 +4552,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 2.54 0)
+				(at -29.21 2.54 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDDSMPS"
@@ -4571,7 +4571,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 2.54 0)
+				(at -29.21 2.54 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDDSMPS"
@@ -4590,7 +4590,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -2.54 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -4608,7 +4608,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -2.54 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4627,7 +4627,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -2.54 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4646,7 +4646,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -2.54 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4665,7 +4665,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -2.54 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4684,7 +4684,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -2.54 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4703,7 +4703,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -2.54 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4722,7 +4722,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -2.54 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4741,7 +4741,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -2.54 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4760,7 +4760,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -5.08 0)
+				(at -29.21 -5.08 0)
 				(length 5.08)
 				(name "VSSSMPS"
 					(effects
@@ -4778,7 +4778,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -5.08 0)
+				(at -29.21 -5.08 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSSSMPS"
@@ -4797,7 +4797,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -5.08 0)
+				(at -29.21 -5.08 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSSSMPS"
@@ -4816,7 +4816,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -5.08 0)
+				(at -29.21 -5.08 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSSSMPS"
@@ -4835,7 +4835,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -5.08 0)
+				(at -29.21 -5.08 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSSSMPS"
@@ -4854,7 +4854,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -7.62 0)
+				(at -29.21 -7.62 0)
 				(length 5.08)
 				(name "VSSAPMU"
 					(effects
@@ -4872,7 +4872,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -10.16 0)
+				(at -29.21 -10.16 0)
 				(length 5.08)
 				(name "VSSA"
 					(effects
@@ -4890,7 +4890,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -12.7 0)
+				(at -29.21 -12.7 0)
 				(length 5.08)
 				(name "VSSAON"
 					(effects
@@ -4908,7 +4908,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 27.94 180)
+				(at 29.21 27.94 180)
 				(length 5.08)
 				(name "VDD33USB"
 					(effects
@@ -4926,7 +4926,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 25.4 180)
+				(at 29.21 25.4 180)
 				(length 5.08)
 				(name "VDDA18USB"
 					(effects
@@ -4944,7 +4944,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 22.86 180)
+				(at 29.21 22.86 180)
 				(length 5.08)
 				(name "V08CAP"
 					(effects
@@ -4962,7 +4962,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 20.32 180)
+				(at 29.21 20.32 180)
 				(length 5.08)
 				(name "VBAT"
 					(effects
@@ -4980,7 +4980,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 17.78 180)
+				(at 29.21 17.78 180)
 				(length 5.08)
 				(hide yes)
 				(name "VDDIO2"
@@ -4999,7 +4999,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 17.78 180)
+				(at 29.21 17.78 180)
 				(length 5.08)
 				(name "VDDIO2"
 					(effects
@@ -5017,7 +5017,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 17.78 180)
+				(at 29.21 17.78 180)
 				(length 5.08)
 				(hide yes)
 				(name "VDDIO2"
@@ -5036,7 +5036,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 17.78 180)
+				(at 29.21 17.78 180)
 				(length 5.08)
 				(hide yes)
 				(name "VDDIO2"
@@ -5055,7 +5055,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 15.24 180)
+				(at 29.21 15.24 180)
 				(length 5.08)
 				(name "VDDIO3"
 					(effects
@@ -5073,7 +5073,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 15.24 180)
+				(at 29.21 15.24 180)
 				(length 5.08)
 				(hide yes)
 				(name "VDDIO3"
@@ -5092,7 +5092,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 12.7 180)
+				(at 29.21 12.7 180)
 				(length 5.08)
 				(name "VDDIO4"
 					(effects
@@ -5110,7 +5110,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 12.7 180)
+				(at 29.21 12.7 180)
 				(length 5.08)
 				(hide yes)
 				(name "VDDIO4"
@@ -5129,7 +5129,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 10.16 180)
+				(at 29.21 10.16 180)
 				(length 5.08)
 				(name "VDDCSI"
 					(effects
@@ -5147,7 +5147,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 7.62 180)
+				(at 29.21 7.62 180)
 				(length 5.08)
 				(name "VDDA18CSI"
 					(effects
@@ -5165,7 +5165,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 5.08 180)
+				(at 29.21 5.08 180)
 				(length 5.08)
 				(name "VDDA18PLL"
 					(effects
@@ -5183,7 +5183,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 2.54 180)
+				(at 29.21 2.54 180)
 				(length 5.08)
 				(name "VDDA18ADC"
 					(effects
@@ -5201,7 +5201,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 -2.54 180)
+				(at 29.21 -2.54 180)
 				(length 5.08)
 				(name "VREF+"
 					(effects
@@ -5219,7 +5219,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 -5.08 180)
+				(at 29.21 -5.08 180)
 				(length 5.08)
 				(name "VREF-"
 					(effects
@@ -5237,7 +5237,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 19.05 -7.62 180)
+				(at 29.21 -7.62 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -5256,7 +5256,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 19.05 -10.16 180)
+				(at 29.21 -10.16 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -5277,8 +5277,8 @@
 		)
 		(symbol "STM32N657L0H3Q_4_1"
 			(rectangle
-				(start -13.97 44.45)
-				(end 13.97 -44.45)
+				(start -24.13 31.115)
+				(end 24.13 -31.115)
 				(stroke
 					(width 0)
 					(type solid)
