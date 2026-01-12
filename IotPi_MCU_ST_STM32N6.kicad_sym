@@ -4197,8 +4197,80 @@
 			)
 		)
 		(symbol "STM32N657L0H3Q_4_0"
+			(pin power_in line
+				(at -29.21 38.1 0)
+				(length 5.08)
+				(name "VDD33USB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -29.21 35.56 0)
+				(length 5.08)
+				(name "VDDA18USB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -29.21 33.02 0)
+				(length 5.08)
+				(name "V08CAP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -29.21 30.48 0)
+				(length 5.08)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
-				(at -29.21 17.78 0)
+				(at -29.21 27.94 0)
 				(length 5.08)
 				(name "VFBSMPS"
 					(effects
@@ -4216,7 +4288,7 @@
 				)
 			)
 			(pin power_out line
-				(at -29.21 15.24 0)
+				(at -29.21 25.4 0)
 				(length 5.08)
 				(name "VLXSMPS"
 					(effects
@@ -4234,9 +4306,8 @@
 				)
 			)
 			(pin power_out line
-				(at -29.21 15.24 0)
+				(at -29.21 22.86 0)
 				(length 5.08)
-				(hide yes)
 				(name "VLXSMPS"
 					(effects
 						(font
@@ -4253,9 +4324,8 @@
 				)
 			)
 			(pin power_out line
-				(at -29.21 15.24 0)
+				(at -29.21 20.32 0)
 				(length 5.08)
-				(hide yes)
 				(name "VLXSMPS"
 					(effects
 						(font
@@ -4272,9 +4342,8 @@
 				)
 			)
 			(pin power_out line
-				(at -29.21 15.24 0)
+				(at -29.21 17.78 0)
 				(length 5.08)
-				(hide yes)
 				(name "VLXSMPS"
 					(effects
 						(font
@@ -4293,7 +4362,6 @@
 			(pin power_out line
 				(at -29.21 15.24 0)
 				(length 5.08)
-				(hide yes)
 				(name "VLXSMPS"
 					(effects
 						(font
@@ -4312,192 +4380,6 @@
 			(pin power_in line
 				(at -29.21 12.7 0)
 				(length 5.08)
-				(name "VDDA18PMU"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 10.16 0)
-				(length 5.08)
-				(name "VDDA18AON"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 7.62 0)
-				(length 5.08)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 7.62 0)
-				(length 5.08)
-				(hide yes)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 7.62 0)
-				(length 5.08)
-				(hide yes)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "L14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 5.08 0)
-				(length 5.08)
-				(hide yes)
-				(name "VDDCORE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 5.08 0)
-				(length 5.08)
-				(hide yes)
-				(name "VDDCORE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 5.08 0)
-				(length 5.08)
-				(hide yes)
-				(name "VDDCORE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 5.08 0)
-				(length 5.08)
-				(name "VDDCORE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 5.08 0)
-				(length 5.08)
-				(hide yes)
-				(name "VDDCORE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 2.54 0)
-				(length 5.08)
 				(name "VDDSMPS"
 					(effects
 						(font
@@ -4514,9 +4396,8 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 2.54 0)
+				(at -29.21 10.16 0)
 				(length 5.08)
-				(hide yes)
 				(name "VDDSMPS"
 					(effects
 						(font
@@ -4533,9 +4414,8 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 2.54 0)
+				(at -29.21 7.62 0)
 				(length 5.08)
-				(hide yes)
 				(name "VDDSMPS"
 					(effects
 						(font
@@ -4552,9 +4432,8 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 2.54 0)
+				(at -29.21 5.08 0)
 				(length 5.08)
-				(hide yes)
 				(name "VDDSMPS"
 					(effects
 						(font
@@ -4573,7 +4452,6 @@
 			(pin power_in line
 				(at -29.21 2.54 0)
 				(length 5.08)
-				(hide yes)
 				(name "VDDSMPS"
 					(effects
 						(font
@@ -4592,166 +4470,14 @@
 			(pin power_in line
 				(at -29.21 -2.54 0)
 				(length 5.08)
-				(name "VSS"
+				(name "VDDCORE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 -2.54 0)
-				(length 5.08)
-				(hide yes)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 -2.54 0)
-				(length 5.08)
-				(hide yes)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 -2.54 0)
-				(length 5.08)
-				(hide yes)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 -2.54 0)
-				(length 5.08)
-				(hide yes)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 -2.54 0)
-				(length 5.08)
-				(hide yes)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 -2.54 0)
-				(length 5.08)
-				(hide yes)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 -2.54 0)
-				(length 5.08)
-				(hide yes)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "W1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 -2.54 0)
-				(length 5.08)
-				(hide yes)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "W19"
+				(number "P7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4762,90 +4488,14 @@
 			(pin power_in line
 				(at -29.21 -5.08 0)
 				(length 5.08)
-				(name "VSSSMPS"
+				(name "VDDCORE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 -5.08 0)
-				(length 5.08)
-				(hide yes)
-				(name "VSSSMPS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 -5.08 0)
-				(length 5.08)
-				(hide yes)
-				(name "VSSSMPS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 -5.08 0)
-				(length 5.08)
-				(hide yes)
-				(name "VSSSMPS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 -5.08 0)
-				(length 5.08)
-				(hide yes)
-				(name "VSSSMPS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J5"
+				(number "P9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4856,14 +4506,14 @@
 			(pin power_in line
 				(at -29.21 -7.62 0)
 				(length 5.08)
-				(name "VSSAPMU"
+				(name "VDDCORE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "H2"
+				(number "P10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4874,14 +4524,14 @@
 			(pin power_in line
 				(at -29.21 -10.16 0)
 				(length 5.08)
-				(name "VSSA"
+				(name "VDDCORE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "N6"
+				(number "P11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4892,14 +4542,14 @@
 			(pin power_in line
 				(at -29.21 -12.7 0)
 				(length 5.08)
-				(name "VSSAON"
+				(name "VDDCORE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "G6"
+				(number "P13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4908,16 +4558,16 @@
 				)
 			)
 			(pin power_in line
-				(at 29.21 27.94 180)
+				(at -29.21 -15.24 0)
 				(length 5.08)
-				(name "VDD33USB"
+				(name "VDDA18PMU"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C3"
+				(number "H1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4926,16 +4576,16 @@
 				)
 			)
 			(pin power_in line
-				(at 29.21 25.4 180)
+				(at -29.21 -17.78 0)
 				(length 5.08)
-				(name "VDDA18USB"
+				(name "VDDA18AON"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "D4"
+				(number "H6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4944,16 +4594,16 @@
 				)
 			)
 			(pin power_in line
-				(at 29.21 22.86 180)
+				(at -29.21 -20.32 0)
 				(length 5.08)
-				(name "V08CAP"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "G1"
+				(number "J14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4962,16 +4612,16 @@
 				)
 			)
 			(pin power_in line
-				(at 29.21 20.32 180)
+				(at -29.21 -22.86 0)
 				(length 5.08)
-				(name "VBAT"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "F1"
+				(number "K14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4980,35 +4630,16 @@
 				)
 			)
 			(pin power_in line
-				(at 29.21 17.78 180)
+				(at -29.21 -25.4 0)
 				(length 5.08)
-				(hide yes)
-				(name "VDDIO2"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "H16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 29.21 17.78 180)
-				(length 5.08)
-				(name "VDDIO2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J16"
+				(number "L14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5017,119 +4648,7 @@
 				)
 			)
 			(pin power_in line
-				(at 29.21 17.78 180)
-				(length 5.08)
-				(hide yes)
-				(name "VDDIO2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 29.21 17.78 180)
-				(length 5.08)
-				(hide yes)
-				(name "VDDIO2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "L16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 29.21 15.24 180)
-				(length 5.08)
-				(name "VDDIO3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "M14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 29.21 15.24 180)
-				(length 5.08)
-				(hide yes)
-				(name "VDDIO3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "M16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 29.21 12.7 180)
-				(length 5.08)
-				(name "VDDIO4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 29.21 12.7 180)
-				(length 5.08)
-				(hide yes)
-				(name "VDDIO4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 29.21 10.16 180)
+				(at -29.21 -27.94 0)
 				(length 5.08)
 				(name "VDDCSI"
 					(effects
@@ -5147,7 +4666,7 @@
 				)
 			)
 			(pin power_in line
-				(at 29.21 7.62 180)
+				(at -29.21 -30.48 0)
 				(length 5.08)
 				(name "VDDA18CSI"
 					(effects
@@ -5165,7 +4684,7 @@
 				)
 			)
 			(pin power_in line
-				(at 29.21 5.08 180)
+				(at -29.21 -33.02 0)
 				(length 5.08)
 				(name "VDDA18PLL"
 					(effects
@@ -5183,7 +4702,7 @@
 				)
 			)
 			(pin power_in line
-				(at 29.21 2.54 180)
+				(at -29.21 -35.56 0)
 				(length 5.08)
 				(name "VDDA18ADC"
 					(effects
@@ -5200,44 +4719,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 29.21 -2.54 180)
-				(length 5.08)
-				(name "VREF+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "W2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 29.21 -5.08 180)
-				(length 5.08)
-				(name "VREF-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "V2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin no_connect line
-				(at 29.21 -7.62 180)
+				(at -29.21 -40.64 0)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -5256,7 +4739,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 29.21 -10.16 180)
+				(at -29.21 -43.18 0)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -5274,11 +4757,497 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 29.21 38.1 180)
+				(length 5.08)
+				(name "VDDIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 35.56 180)
+				(length 5.08)
+				(name "VDDIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 33.02 180)
+				(length 5.08)
+				(name "VDDIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 30.48 180)
+				(length 5.08)
+				(name "VDDIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 27.94 180)
+				(length 5.08)
+				(name "VDDIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 25.4 180)
+				(length 5.08)
+				(name "VDDIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 22.86 180)
+				(length 5.08)
+				(name "VDDIO4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 20.32 180)
+				(length 5.08)
+				(name "VDDIO4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 17.78 180)
+				(length 5.08)
+				(name "VREF+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 15.24 180)
+				(length 5.08)
+				(name "VREF-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 10.16 180)
+				(length 5.08)
+				(name "VSSSMPS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 7.62 180)
+				(length 5.08)
+				(name "VSSSMPS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 5.08 180)
+				(length 5.08)
+				(name "VSSSMPS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 2.54 180)
+				(length 5.08)
+				(name "VSSSMPS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 0 180)
+				(length 5.08)
+				(name "VSSSMPS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 -2.54 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 -5.08 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 -7.62 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 -10.16 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 -12.7 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 -15.24 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 -17.78 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 -20.32 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 -22.86 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 -25.4 180)
+				(length 5.08)
+				(name "VSSAPMU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 -27.94 180)
+				(length 5.08)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 -30.48 180)
+				(length 5.08)
+				(name "VSSAON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "STM32N657L0H3Q_4_1"
 			(rectangle
-				(start -24.13 31.115)
-				(end 24.13 -31.115)
+				(start -24.13 45.085)
+				(end 24.13 -45.085)
 				(stroke
 					(width 0)
 					(type solid)
