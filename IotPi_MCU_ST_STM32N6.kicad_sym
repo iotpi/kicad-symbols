@@ -4111,7 +4111,7 @@
 				)
 			)
 			(pin input line
-				(at 29.21 -31.75 180)
+				(at 29.21 -33.02 180)
 				(length 5.08)
 				(name "NRST"
 					(effects
@@ -4128,44 +4128,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 29.21 -34.29 180)
-				(length 5.08)
-				(name "PWR_ON"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at 29.21 -36.83 180)
-				(length 5.08)
-				(name "PDR_ON"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 29.21 -39.37 180)
+				(at 29.21 -35.56 180)
 				(length 5.08)
 				(name "BOOT0"
 					(effects
@@ -4468,7 +4432,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -2.54 0)
+				(at -29.21 0 0)
 				(length 5.08)
 				(name "VDDCORE"
 					(effects
@@ -4486,7 +4450,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -5.08 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(name "VDDCORE"
 					(effects
@@ -4504,7 +4468,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -7.62 0)
+				(at -29.21 -5.08 0)
 				(length 5.08)
 				(name "VDDCORE"
 					(effects
@@ -4522,7 +4486,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -10.16 0)
+				(at -29.21 -7.62 0)
 				(length 5.08)
 				(name "VDDCORE"
 					(effects
@@ -4540,7 +4504,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -12.7 0)
+				(at -29.21 -10.16 0)
 				(length 5.08)
 				(name "VDDCORE"
 					(effects
@@ -4558,7 +4522,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -15.24 0)
+				(at -29.21 -12.7 0)
 				(length 5.08)
 				(name "VDDA18PMU"
 					(effects
@@ -4576,7 +4540,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -17.78 0)
+				(at -29.21 -15.24 0)
 				(length 5.08)
 				(name "VDDA18AON"
 					(effects
@@ -4594,7 +4558,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -20.32 0)
+				(at -29.21 -17.78 0)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -4612,7 +4576,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -22.86 0)
+				(at -29.21 -20.32 0)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -4630,7 +4594,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -25.4 0)
+				(at -29.21 -22.86 0)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -4648,7 +4612,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -27.94 0)
+				(at -29.21 -25.4 0)
 				(length 5.08)
 				(name "VDDCSI"
 					(effects
@@ -4666,7 +4630,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -30.48 0)
+				(at -29.21 -27.94 0)
 				(length 5.08)
 				(name "VDDA18CSI"
 					(effects
@@ -4684,7 +4648,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -33.02 0)
+				(at -29.21 -30.48 0)
 				(length 5.08)
 				(name "VDDA18PLL"
 					(effects
@@ -4702,7 +4666,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -35.56 0)
+				(at -29.21 -33.02 0)
 				(length 5.08)
 				(name "VDDA18ADC"
 					(effects
@@ -4719,18 +4683,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -29.21 -40.64 0)
+			(pin output line
+				(at -29.21 -38.1 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "PWR_ON"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B1"
+				(number "G4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4738,18 +4701,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -29.21 -43.18 0)
+			(pin input line
+				(at -29.21 -40.64 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "PDR_ON"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "D2"
+				(number "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5236,6 +5198,44 @@
 					)
 				)
 				(number "G6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 29.21 -38.1 180)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 29.21 -40.64 180)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D2"
 					(effects
 						(font
 							(size 1.27 1.27)
