@@ -257,7 +257,6 @@
 				)
 				(alternate "ADC1_INP3" input line)
 				(alternate "ADC2_INP3" input line)
-				(alternate "BOOT1" input line)
 				(alternate "DCMIPP_PIXCLK/DCMI_PIXCLK/PSSI_PDCK" output line)
 				(alternate "HDP6" output line)
 				(alternate "I2S1_SDI" input line)
