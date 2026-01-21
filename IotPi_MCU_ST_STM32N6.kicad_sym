@@ -4196,7 +4196,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -29.21 35.56 0)
 				(length 5.08)
 				(name "VLXSMPS"
@@ -4214,7 +4214,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -29.21 33.02 0)
 				(length 5.08)
 				(name "VLXSMPS"
@@ -4232,7 +4232,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -29.21 30.48 0)
 				(length 5.08)
 				(name "VLXSMPS"
@@ -4250,7 +4250,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -29.21 27.94 0)
 				(length 5.08)
 				(name "VLXSMPS"
