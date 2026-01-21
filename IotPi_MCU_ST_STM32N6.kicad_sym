@@ -661,7 +661,6 @@
 				(alternate "HDP4" output line)
 				(alternate "LCD_R3" output line)
 				(alternate "LPTIM4_ETR" output line)
-				(alternate "NJTRST" output line)
 				(alternate "SDMMC2_D3" bidirectional line)
 				(alternate "SPI1_MISO/I2S1_SDI" input line)
 				(alternate "SPI2_NSS/I2S2_WS" output line)
@@ -670,6 +669,7 @@
 				(alternate "TIM16_BKIN" output line)
 				(alternate "TIM3_CH1" output line)
 				(alternate "UART7_TX" output line)
+				(alternate "~{JTRST}" output line)
 			)
 			(pin tri_state line
 				(at -29.21 -15.24 0)
@@ -4557,7 +4557,25 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -17.78 0)
+				(at -29.21 -15.24 0)
+				(length 5.08)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -29.21 -20.32 0)
 				(length 5.08)
 				(name "VDDA18CSI"
 					(effects
@@ -4575,7 +4593,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -20.32 0)
+				(at -29.21 -22.86 0)
 				(length 5.08)
 				(name "VDDA18PLL"
 					(effects
@@ -4593,7 +4611,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -22.86 0)
+				(at -29.21 -25.4 0)
 				(length 5.08)
 				(name "VDDA18ADC"
 					(effects
@@ -4611,7 +4629,7 @@
 				)
 			)
 			(pin power_in line
-				(at -29.21 -25.4 0)
+				(at -29.21 -27.94 0)
 				(length 5.08)
 				(name "VDDA18USB"
 					(effects
@@ -4621,24 +4639,6 @@
 					)
 				)
 				(number "D4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -29.21 -27.94 0)
-				(length 5.08)
-				(name "VBAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F1"
 					(effects
 						(font
 							(size 1.27 1.27)
