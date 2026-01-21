@@ -1684,24 +1684,6 @@
 					)
 				)
 			)
-			(pin free line
-				(at -21.59 -36.83 0)
-				(length 3.81)
-				(name "RFU"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "G3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(pin no_connect line
 				(at -21.59 -36.83 0)
 				(length 3.81)
@@ -2703,24 +2685,6 @@
 					)
 				)
 				(number "P2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin free line
-				(at 21.59 -30.48 180)
-				(length 3.81)
-				(name "RFU"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "P7"
 					(effects
 						(font
 							(size 0.762 0.762)
