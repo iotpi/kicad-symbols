@@ -4664,7 +4664,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -29.21 -33.02 0)
 				(length 5.08)
 				(name "V08CAP"
