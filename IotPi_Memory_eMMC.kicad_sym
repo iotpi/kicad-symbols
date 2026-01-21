@@ -69,7 +69,7 @@
 					(type background)
 				)
 			)
-			(pin input line
+			(pin input clock
 				(at -21.59 20.32 0)
 				(length 3.81)
 				(name "CLK"
@@ -267,7 +267,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -21.59 -10.16 0)
 				(length 3.81)
 				(name "DS"
