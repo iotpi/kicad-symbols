@@ -3927,8 +3927,44 @@
 				(alternate "LCD_B5" output line)
 				(alternate "XSPIM_P1_IO15" bidirectional line)
 			)
-			(pin input line
+			(pin output line
 				(at 29.21 -2.54 180)
+				(length 5.08)
+				(name "UCPD1_CC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 29.21 -5.08 180)
+				(length 5.08)
+				(name "UCPD1_CC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.21 -10.16 180)
 				(length 5.08)
 				(name "OTG1_TXRTUNE"
 					(effects
@@ -3946,7 +3982,7 @@
 				)
 			)
 			(pin input line
-				(at 29.21 -5.08 180)
+				(at 29.21 -12.7 180)
 				(length 5.08)
 				(name "OTG1_ID"
 					(effects
@@ -3963,44 +3999,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 29.21 -7.62 180)
-				(length 5.08)
-				(name "UCPD1_CC2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 29.21 -10.16 180)
-				(length 5.08)
-				(name "UCPD1_CC1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 29.21 -12.7 180)
+				(at 29.21 -15.24 180)
 				(length 5.08)
 				(name "OTG1_HSDP"
 					(effects
@@ -4018,7 +4018,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 29.21 -15.24 180)
+				(at 29.21 -17.78 180)
 				(length 5.08)
 				(name "OTG1_HSDM"
 					(effects
@@ -4036,7 +4036,7 @@
 				)
 			)
 			(pin input line
-				(at 29.21 -20.32 180)
+				(at 29.21 -22.86 180)
 				(length 5.08)
 				(name "OTG2_TXRTUNE"
 					(effects
@@ -4054,7 +4054,7 @@
 				)
 			)
 			(pin input line
-				(at 29.21 -22.86 180)
+				(at 29.21 -25.4 180)
 				(length 5.08)
 				(name "OTG2_ID"
 					(effects
@@ -4072,7 +4072,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 29.21 -25.4 180)
+				(at 29.21 -27.94 180)
 				(length 5.08)
 				(name "OTG2_HSDP"
 					(effects
@@ -4090,7 +4090,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 29.21 -27.94 180)
+				(at 29.21 -30.48 180)
 				(length 5.08)
 				(name "OTG2_HSDM"
 					(effects
@@ -4108,7 +4108,7 @@
 				)
 			)
 			(pin input line
-				(at 29.21 -33.02 180)
+				(at 29.21 -35.56 180)
 				(length 5.08)
 				(name "NRST"
 					(effects
@@ -4126,7 +4126,7 @@
 				)
 			)
 			(pin input line
-				(at 29.21 -35.56 180)
+				(at 29.21 -38.1 180)
 				(length 5.08)
 				(name "BOOT0"
 					(effects
