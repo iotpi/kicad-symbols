@@ -3930,14 +3930,14 @@
 			(pin input line
 				(at 29.21 -2.54 180)
 				(length 5.08)
-				(name "OTG1_ID"
+				(name "OTG1_TXRTUNE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B2"
+				(number "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3948,14 +3948,14 @@
 			(pin input line
 				(at 29.21 -5.08 180)
 				(length 5.08)
-				(name "OTG1_TXRTUNE"
+				(name "OTG1_ID"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A2"
+				(number "B2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4038,14 +4038,14 @@
 			(pin input line
 				(at 29.21 -20.32 180)
 				(length 5.08)
-				(name "OTG2_ID"
+				(name "OTG2_TXRTUNE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "E4"
+				(number "E2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4056,14 +4056,14 @@
 			(pin input line
 				(at 29.21 -22.86 180)
 				(length 5.08)
-				(name "OTG2_TXRTUNE"
+				(name "OTG2_ID"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "E2"
+				(number "E4"
 					(effects
 						(font
 							(size 1.27 1.27)
