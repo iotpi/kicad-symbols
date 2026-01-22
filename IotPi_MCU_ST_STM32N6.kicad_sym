@@ -2411,7 +2411,7 @@
 				(alternate "DCMIPP_D11/DCMI_D11/PSSI_D11" input line)
 				(alternate "DCMIPP_D15/PSSI_D15" input line)
 				(alternate "ETH1_MII_RX_DV" input line)
-				(alternate "ETH1_R GMII_RX_CTL" input line)
+				(alternate "ETH1_RGMII_RX_CTL" input line)
 				(alternate "ETH1_RMII_CRS_DV" input line)
 				(alternate "EVENTOUT" output line)
 				(alternate "LCD_R1" output line)
