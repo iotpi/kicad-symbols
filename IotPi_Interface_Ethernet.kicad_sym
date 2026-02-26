@@ -62,16 +62,34 @@
 				)
 			)
 			(pin input line
-				(at -21.59 27.94 0)
+				(at -21.59 30.48 0)
 				(length 3.81)
-				(name "MDIP0"
+				(name "TXC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 27.94 0)
+				(length 3.81)
+				(name "TXCTL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -82,14 +100,14 @@
 			(pin input line
 				(at -21.59 25.4 0)
 				(length 3.81)
-				(name "MDIN0"
+				(name "TXD0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -100,14 +118,14 @@
 			(pin input line
 				(at -21.59 22.86 0)
 				(length 3.81)
-				(name "MDIP1"
+				(name "TXD1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -118,14 +136,14 @@
 			(pin input line
 				(at -21.59 20.32 0)
 				(length 3.81)
-				(name "MDIN1"
+				(name "TXD2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -136,14 +154,14 @@
 			(pin input line
 				(at -21.59 17.78 0)
 				(length 3.81)
-				(name "MDIP2"
+				(name "TXD3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -151,17 +169,17 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -21.59 15.24 0)
 				(length 3.81)
-				(name "MDIN2"
+				(name "RXC/PHYAD1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -169,17 +187,17 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -21.59 12.7 0)
 				(length 3.81)
-				(name "MDIP3"
+				(name "RXCTL/PHYAD2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -187,17 +205,35 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -21.59 10.16 0)
 				(length 3.81)
-				(name "MDIN3"
+				(name "RXD0/RXDLY"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -21.59 7.62 0)
+				(length 3.81)
+				(name "RXD1/TXDLY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -208,7 +244,43 @@
 			(pin output line
 				(at -21.59 5.08 0)
 				(length 3.81)
-				(name "INTB/PMEB"
+				(name "RXD2/PLLOFF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -21.59 2.54 0)
+				(length 3.81)
+				(name "RXD3/PHYAD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -21.59 -2.54 0)
+				(length 3.81)
+				(name "~{INTB}/~{PMEB}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -224,7 +296,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 2.54 0)
+				(at -21.59 -5.08 0)
 				(length 3.81)
 				(name "LED0/CFG_EXT"
 					(effects
@@ -242,7 +314,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 0 0)
+				(at -21.59 -7.62 0)
 				(length 3.81)
 				(name "LED1/CFG_LDO0"
 					(effects
@@ -260,7 +332,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 -2.54 0)
+				(at -21.59 -10.16 0)
 				(length 3.81)
 				(name "LED2/CFG_LDO1"
 					(effects
@@ -278,7 +350,7 @@
 				)
 			)
 			(pin output line
-				(at -21.59 -7.62 0)
+				(at -21.59 -15.24 0)
 				(length 3.81)
 				(name "CLKOUT"
 					(effects
@@ -296,7 +368,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -10.16 0)
+				(at -21.59 -17.78 0)
 				(length 3.81)
 				(name "XTAL_IN"
 					(effects
@@ -314,7 +386,7 @@
 				)
 			)
 			(pin output line
-				(at -21.59 -12.7 0)
+				(at -21.59 -20.32 0)
 				(length 3.81)
 				(name "XTAL_OUT/EXT_CLK"
 					(effects
@@ -324,42 +396,6 @@
 					)
 				)
 				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -21.59 -17.78 0)
-				(length 3.81)
-				(name "RSET"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -21.59 -20.32 0)
-				(length 3.81)
-				(name "PHYRSTB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -406,14 +442,14 @@
 			(pin input line
 				(at 21.59 30.48 180)
 				(length 3.81)
-				(name "TXC"
+				(name "MDIP0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "20"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -424,14 +460,14 @@
 			(pin input line
 				(at 21.59 27.94 180)
 				(length 3.81)
-				(name "TXCTL"
+				(name "MDIN0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -442,14 +478,14 @@
 			(pin input line
 				(at 21.59 25.4 180)
 				(length 3.81)
-				(name "TXD0"
+				(name "MDIP1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "18"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -460,14 +496,14 @@
 			(pin input line
 				(at 21.59 22.86 180)
 				(length 3.81)
-				(name "TXD1"
+				(name "MDIN1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -478,14 +514,14 @@
 			(pin input line
 				(at 21.59 20.32 180)
 				(length 3.81)
-				(name "TXD2"
+				(name "MDIP2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -496,14 +532,14 @@
 			(pin input line
 				(at 21.59 17.78 180)
 				(length 3.81)
-				(name "TXD3"
+				(name "MDIN2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -511,35 +547,35 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
+				(at 21.59 15.24 180)
+				(length 3.81)
+				(name "MDIP3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at 21.59 12.7 180)
 				(length 3.81)
-				(name "RXC/PHYAD1"
+				(name "MDIN3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 21.59 10.16 180)
-				(length 3.81)
-				(name "RXCTL/PHYAD2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -550,14 +586,14 @@
 			(pin output line
 				(at 21.59 7.62 180)
 				(length 3.81)
-				(name "RXD0/RXDLY"
+				(name "RSET"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "25"
+				(number "39"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -565,35 +601,17 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 21.59 5.08 180)
 				(length 3.81)
-				(name "RXD1/TXDLY"
+				(name "PHYRSTB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 21.59 2.54 180)
-				(length 3.81)
-				(name "RXD2/PLLOFF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -601,80 +619,8 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at 21.59 0 180)
-				(length 3.81)
-				(name "RXD3/PHYAD0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 21.59 -5.08 180)
-				(length 3.81)
-				(name "AVDD10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 21.59 -7.62 180)
-				(length 3.81)
-				(name "AVDD10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 21.59 -10.16 180)
-				(length 3.81)
-				(name "AVDD10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 21.59 -12.7 180)
 				(length 3.81)
 				(name "AVDD33"
 					(effects
@@ -692,7 +638,7 @@
 				)
 			)
 			(pin power_in line
-				(at 21.59 -15.24 180)
+				(at 21.59 -2.54 180)
 				(length 3.81)
 				(name "AVDD33"
 					(effects
@@ -710,7 +656,7 @@
 				)
 			)
 			(pin power_in line
-				(at 21.59 -17.78 180)
+				(at 21.59 -5.08 180)
 				(length 3.81)
 				(name "DVDD33"
 					(effects
@@ -728,7 +674,61 @@
 				)
 			)
 			(pin power_in line
-				(at 21.59 -20.32 180)
+				(at 21.59 -7.62 180)
+				(length 3.81)
+				(name "AVDD10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 -10.16 180)
+				(length 3.81)
+				(name "AVDD10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 -12.7 180)
+				(length 3.81)
+				(name "AVDD10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 -15.24 180)
 				(length 3.81)
 				(name "DVDD10"
 					(effects
@@ -746,7 +746,7 @@
 				)
 			)
 			(pin power_in line
-				(at 21.59 -22.86 180)
+				(at 21.59 -17.78 180)
 				(length 3.81)
 				(name "DVDD_RG"
 					(effects
@@ -764,7 +764,7 @@
 				)
 			)
 			(pin power_out line
-				(at 21.59 -27.94 180)
+				(at 21.59 -22.86 180)
 				(length 3.81)
 				(name "REG_OUT/LDO_OUT"
 					(effects
@@ -782,7 +782,7 @@
 				)
 			)
 			(pin power_in line
-				(at 21.59 -33.02 180)
+				(at 21.59 -27.94 180)
 				(length 3.81)
 				(name "GND"
 					(effects
