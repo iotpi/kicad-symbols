@@ -13445,7 +13445,6 @@
 			(pin power_out line
 				(at 10.16 2.54 180)
 				(length 2.54)
-				(hide yes)
 				(name "V_{OUT}"
 					(effects
 						(font
@@ -13453,7 +13452,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13464,6 +13463,7 @@
 			(pin power_out line
 				(at 10.16 2.54 180)
 				(length 2.54)
+				(hide yes)
 				(name "V_{OUT}"
 					(effects
 						(font
@@ -13471,7 +13471,7 @@
 						)
 					)
 				)
-				(number "T"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13508,6 +13508,25 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(hide yes)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
