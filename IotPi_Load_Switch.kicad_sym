@@ -13372,7 +13372,7 @@
 			(pin power_in line
 				(at -10.16 2.54 0)
 				(length 2.54)
-				(name "VIN"
+				(name "V_{IN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13391,7 +13391,7 @@
 				(at -10.16 2.54 0)
 				(length 2.54)
 				(hide yes)
-				(name "VIN"
+				(name "V_{IN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13445,14 +13445,15 @@
 			(pin power_out line
 				(at 10.16 2.54 180)
 				(length 2.54)
-				(name "VOUT"
+				(hide yes)
+				(name "V_{OUT}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13463,15 +13464,14 @@
 			(pin power_out line
 				(at 10.16 2.54 180)
 				(length 2.54)
-				(hide yes)
-				(name "VOUT"
+				(name "V_{OUT}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "T"
 					(effects
 						(font
 							(size 1.27 1.27)
