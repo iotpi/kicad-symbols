@@ -277,26 +277,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -21.59 -2.54 0)
-				(length 3.81)
-				(name "~{INTB}/~{PMEB}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at -21.59 -5.08 0)
+				(at -21.59 0 0)
 				(length 3.81)
 				(name "LED0/CFG_EXT"
 					(effects
@@ -314,7 +296,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 -7.62 0)
+				(at -21.59 -2.54 0)
 				(length 3.81)
 				(name "LED1/CFG_LDO0"
 					(effects
@@ -332,7 +314,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 -10.16 0)
+				(at -21.59 -5.08 0)
 				(length 3.81)
 				(name "LED2/CFG_LDO1"
 					(effects
@@ -403,8 +385,26 @@
 					)
 				)
 			)
+			(pin output line
+				(at -21.59 -27.94 0)
+				(length 3.81)
+				(name "~{INTB}/~{PMEB}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at -21.59 -25.4 0)
+				(at -21.59 -30.48 0)
 				(length 3.81)
 				(name "MDIO"
 					(effects
@@ -422,7 +422,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -27.94 0)
+				(at -21.59 -33.02 0)
 				(length 3.81)
 				(name "MDC"
 					(effects
